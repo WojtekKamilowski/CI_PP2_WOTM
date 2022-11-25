@@ -96,7 +96,7 @@ h1 {
 
 /* main */
 
-#meals-container {
+#main-container {
     background-color: #e8be96;
     box-sizing: border-box;
     width: 60%;
@@ -107,7 +107,7 @@ h1 {
     padding: 0.5%;
 }
 
-#meals-container h2 {
+#main-container h2 {
     margin-top: 5vh;
 }
 
@@ -147,12 +147,12 @@ h1 {
         min-height: calc(60vh - 150px);
     }
     
-    #meals-container {
+    #main-container {
         margin-bottom: 10vh;   
         width: 90%;  
     }
 
-    #meals-container h2 {
+    #main-container h2 {
         font-size: 120%;
     }
 
