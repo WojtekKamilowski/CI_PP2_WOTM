@@ -1,15 +1,40 @@
+/* global style */
+
+body {
+    color: #D27D2D;
+    text-align: center;
+}
+
 * {
     margin: 0;
     padding: 0;
     border: none;
 }
 
+/* logo */
+
+#logo i {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    font-size: 1200%;
+    
+}
+
+h1 {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    font-size: 300%;
+}
+
+
+
 /* background img taken from https://css-tricks.com/snippets/css/transparent-background-images/ */
+
 body::before {
     content: "";
     background: url('../images/background.jpg') repeat;
     background-size: contain;
-    opacity: 0.5;
+    opacity: 0.2;
     top: 0;
     left: 0;
     bottom: 0;
