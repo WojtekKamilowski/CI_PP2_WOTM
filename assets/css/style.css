@@ -1,7 +1,6 @@
 /* global style */
 
 body {
-    color: #D27D2D;
     text-align: center;
 }
 
@@ -11,34 +10,82 @@ body {
     border: none;
 }
 
-/* logo */
-
-#logo i {
-    margin-top: 5vh;
-    margin-bottom: 5vh;
-    font-size: 1200%;
-    
-}
-
-h1 {
-    margin-top: 2vh;
-    margin-bottom: 2vh;
-    font-size: 300%;
-}
-
-
-
 /* background img taken from https://css-tricks.com/snippets/css/transparent-background-images/ */
 
 body::before {
     content: "";
     background: url('../images/background.jpg') repeat;
     background-size: contain;
-    opacity: 0.2;
+    opacity: 0.1;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
     position: absolute;
     z-index: -1;   
-  }
+}
+
+/* logo */
+
+#logo i {
+    margin-top: 5vh;
+    margin-bottom: 20px;
+    font-size: 1200%;
+    color: #D27D2D;
+}
+
+h1 {
+    font-size: 300%;
+    color: #D27D2D;
+}
+
+#logo a {
+    text-decoration: none;
+}
+
+/* sticky footer from https://css-tricks.com/couple-takes-sticky-footer/ */
+
+.content {
+    min-height: calc(50vh - 40px);
+}
+
+/* footer icons with links */
+
+#footer {
+    height: 80px;
+    background-color: #D27D2D;
+}
+
+#social {
+    float: left;
+}
+
+#social ul{
+    margin-top: 25px;
+    margin-left: 30px;
+    display: flex;
+    align-items: baseline;
+    justify-content: right;
+}
+
+.social-icon {
+    font-size: 200%;
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+}
+
+#social li {
+    list-style-type: none;
+}
+
+#envelope {
+    margin-top: 25px;
+    margin-right: 30px;
+    float: right;
+}
+
+#envelope a {
+    font-size: 200%;
+    color: black;
+}
