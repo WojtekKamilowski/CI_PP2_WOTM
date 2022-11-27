@@ -9,4 +9,6 @@ document.addEventListener("DOMContentLoaded", function () {
  * Set up of lottery variables to vary display/hide
  */
 
+ let mainMealsScreen = document.getElementById("main-container-meals");
+ let mainDishScreen = document.getElementById("main-container-dishes");
 
