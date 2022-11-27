@@ -1,9 +1,5 @@
 /* global style */
 
-body {
-    text-align: center;
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -27,12 +23,8 @@ body::before {
 
 /* logo */
 
-#logo {
-    max-height: 5vh;
-}
-
 #logo i {
-    margin-top: 30px;
+    margin-top: 10vh;
     margin-bottom: 20px;
     font-size: 900%;
     color: #D27D2D;
@@ -54,13 +46,19 @@ h1 {
 
 /* sticky footer from https://css-tricks.com/couple-takes-sticky-footer/ */
 
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 .content {
-    min-height: calc(60vh - 180px);
+    flex: 1 0 auto;
 }
 
 /* footer icons with links */
 
 #footer {
+    flex-shrink: 0;
     height: 80px;
     background-color: #D27D2D;
 }
@@ -102,18 +100,17 @@ h1 {
 /* main */
 
 #main-container {
+    margin: 15vh auto 10vh auto;
     background-color: #e8be96;
     box-sizing: border-box;
     width: 60%;
     max-width: 830px;
-    margin-bottom: 10.1vh;
-    margin-left: auto;
-    margin-right: auto;
     padding: 0.5%;
 }
 
 #main-container h2 {
-    margin-top: 5vh;
+    margin: 20px auto;
+    text-align: center;
 }
 
 .meal-buttons {
@@ -175,6 +172,16 @@ h1 {
 
 /* media queries */
 
+/* 1600px */
+
+@media screen and (max-width: 1600px) {
+
+    #main-container {
+        margin-top: 2vh;
+        margin-bottom: 5vh;
+    }
+}
+
 /* 400px */
 
 @media screen and (max-width: 400px) {
@@ -187,17 +194,15 @@ h1 {
         font-size: 200%;
     }
     
-    .content {
-        min-height: calc(60vh - 150px);
-    }
-    
     #main-container {
-        margin-bottom: 10vh;   
-        width: 90%;  
+        width: 90%;
+        margin-top: 2vh;
+        margin-bottom: 10vh;  
     }
 
     #main-container h2 {
         font-size: 120%;
+        
     }
 
     .meal-buttons button {
