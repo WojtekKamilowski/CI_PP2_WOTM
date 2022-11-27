@@ -41,10 +41,15 @@ body::before {
 h1 {
     font-size: 200%;
     color: #D27D2D;
+    width: fit-content;
+    margin: 0 auto;
 }
 
 #logo a {
     text-decoration: none;
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
 }
 
 /* sticky footer from https://css-tricks.com/couple-takes-sticky-footer/ */
@@ -134,7 +139,7 @@ h1 {
 .contact-box {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: baseline;
     justify-content: space-between;
     font-size: 120%;
     font-weight: bold;
@@ -148,31 +153,23 @@ h1 {
     
 }
 
-.message-box {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+#message {
+    max-width:80%;
 }
 
 #name, #email {
-    margin: 10px 0 10px 15px;
+    margin: 5px 0 5px 15px;
     height: 25px;
-    width: 460px;
-}
-
-.submit-box {
-    width: 100%;
+    width: 80%;
 }
 
 .submit-button {
-    margin: 20px 0 20px 215px;
+    margin: 10px 0;
     background-color: #D27D2D;
     box-sizing: border-box;
     border: 1px solid transparent; 
     border-color: black; 
     padding: 10px;
-    float: left;
     font-weight: bold;
 }
 
