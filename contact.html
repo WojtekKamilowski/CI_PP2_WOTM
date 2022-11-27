@@ -28,7 +28,20 @@
     <main>
         <!--main container of the website with the contact form-->
         <div class="content" id="main-container">
-            <h2>Please feel free to aks us questions or provide your feedback!</h2>            
+            <h2>Please feel free to aks us questions or provide your feedback!</h2>
+            <form id="contact-form">
+                <div>
+                    <label for="name" class="form-label">Name:</label>
+                    <input type="text" class="form-box" id="name" name="name" required>
+
+                    <label for="email" class="form-label">Email:</label>
+                    <input type="email" class="form-box" id="email" name="email" required>
+
+                    <label for="message" class="form-label">Message:</label>
+                    <textarea class="form-box" id="message" rows="5" name="message" required></textarea>
+                </div>
+                <input type="submit" class="button-box" id="btn-send-form" value="Send">
+            </form>            
         </div>
     </main>
     <footer id="footer">
