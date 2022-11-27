@@ -99,7 +99,7 @@ body {
 
 /* main */
 
-#main-container {
+#main-container, #main-container-meals {
     margin: 15vh auto 10vh auto;
     background-color: #e8be96;
     box-sizing: border-box;
@@ -108,7 +108,7 @@ body {
     padding: 0.5%;
 }
 
-#main-container h2 {
+#main-container h2, #main-container-meals h2 {
     margin: 20px auto;
     text-align: center;
 }
@@ -195,11 +195,11 @@ body {
         font-size: 200%;
     }
     
-    #main-container {
+    #main-container, #main-container-meals {
         width: 90%;
     }
 
-    #main-container h2 {
+    #main-container h2, #main-container-meals h2 {
         font-size: 120%;
         
     }
