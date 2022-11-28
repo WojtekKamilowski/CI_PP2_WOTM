@@ -25,13 +25,14 @@ function runMealsScreen() {
  * Display a screen with the dish that was drawn and the quiz
  */
 
-function runDishLottery() {
+function selectDishLottery() {
     document.getElementById('main-container-meals').addEventListener('click', function (event) {
         if (!event.target.className.includes("meal-box")) return; // prevent click over all div with three buttons
         let button = event.target;
         let dishLottery = button.getAttribute('data-type');
-        setGame(gameLevel);
+        setLottery(dishIdea);
     });
 }
+
 
 
