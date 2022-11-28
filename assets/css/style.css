@@ -100,7 +100,7 @@ body {
 /* main */
 
 #main-container, #main-container-meals, #main-container-dishes {
-    margin: 15vh auto 10vh auto;
+    margin: 15vh auto 15vh auto;
     background-color: #e8be96;
     box-sizing: border-box;
     width: 60%;
@@ -123,12 +123,12 @@ body {
 
 .meal-box, .dish-box {
     background-color: #D27D2D;
-    width: 200px;
+    width: 300px;
     box-sizing: border-box;
     border: 1px solid transparent; 
     border-color: black; 
     margin: 10px 0;
-    padding: 1vh 1vw;
+    padding: 0.5vh 1vw;
 }
 
 /* contact form */
