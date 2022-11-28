@@ -29,26 +29,26 @@
         <!--main container of the website with buttons to look for an idea for different meals-->
         <div class="content" id="main-container-meals">
             <h2>Looking for an idea what to eat for:</h2>
-            <div class="meal-buttons">
-            <button class="meal-box" id="breakfast" data-type="breakfast-idea">Breakfast</button>
-            <button class="meal-box" id="lunch" data-type="lunch-idea">Lunch</button>
-            <button class="meal-box" id="dinner" data-type="dinner-idea">Dinner</button>
-            <button class="meal-box" id="dessert" data-type="dessert-idea">Dessert</button>
+            <div id="meal-buttons">
+            <button class="meal-box" id="breakfast-idea" data-type="breakfast">Breakfast</button>
+            <button class="meal-box" id="lunch-idea" data-type="lunch">Lunch</button>
+            <button class="meal-box" id="dinner-idea" data-type="dinner">Dinner</button>
+            <button class="meal-box" id="dessert-idea" data-type="dessert">Dessert</button>
             </div>
         </div>
 
         <!--dish lottery result-->
         <div class="content" id="main-container-dishes">
-            <div class="meal-box" id="dish-lottery" >
+            <div class="dish-box" id="dish-lottery" >
                 <h2 id="meal-text"></h2>
                 <p id="dish-name"></p>
-                <button id="different-dish"></button>
-                <button id="recipe"></button>
+                <button class="dish-box" id="different-dish">Maybe...something different</button>
+                <button class="dish-box" id="recipe">I like it! Let's look for a recipe</button>
             </div>
-            <div class="meal-box" id="quiz">
+            <div class="dish-box" id="quiz">
                 <h2>Foodie Quiz Challenge:</h2>
                 <p id="quiz-question"></p> 
-                    <div class="meal-box" id="answers">
+                    <div class="dish-box" id="answers">
                         <p id="answer-a"></p>
                         <p id="answer-b"></p>
                         <p id="answer-c"></p>
