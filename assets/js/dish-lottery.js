@@ -36,6 +36,15 @@ function runDishLottery(mealType) {
     mainDishScreen.style.display = "block";
 
     document.getElementById('meal-text').innerHTML = `Today for ${mealType} let's eat:`;
-    document.getElementById('dish-name').innerHTML = drawnDish();
+    drawnDish();    
+}
+
+function drawnDish() {
+    let dishes = ['Turkish eggs', 'Chocolate Porridge', 'Scramble eggs', 'Spanish Omelette', 'Coconut pancakes', 'Crapes', 'Shakshuka', 'Quick granola','Panini', 'Overnight oats'];
+    let numberOfDishes = dishes.length;
+
+    for (let i = 0; i < numberOfDishes; i++) { 
+        document.getElementById('dish-name').innerHTML = (dishes[i]); 
+    }
 }
 
