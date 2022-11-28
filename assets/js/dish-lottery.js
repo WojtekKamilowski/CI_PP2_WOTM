@@ -34,8 +34,7 @@ function runDishScreen() {
  */
 
 function selectDishLottery() {
-    runMealsScreen();
-    document.getElementById('meal-buttons').addEventListener('click', function (event) {
+    document.getElementById('main-container-dishes').addEventListener('click', function (event) {
         if (!event.target.className.includes("meal-box")) return; // prevent click over all div with three buttons
         let button = event.target;
         let mealDraw = button.getAttribute('data-type');
@@ -51,8 +50,9 @@ function selectDishLottery() {
  */
 function runLottery(mealDraw) {
     runDishScreen()
-    document.getElementById("meal-text").innerHTML = `Today for ${mealDraw} let's eat:`;
 }
+
+// document.getElementById("meal-text").innerHTML = `Today for ${mealDraw} let's eat:`; let lotteryParameters = lotterySettings
 
 
 
