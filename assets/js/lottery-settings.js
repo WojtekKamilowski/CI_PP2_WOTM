@@ -27,7 +27,7 @@ function drawLunchDish() {
     let lunchDishes = [
         'Tuna sandwich',
         'Salmon and tomato sandwich',
-        'Quinoa with pinto beans and fried vegetables',
+        'Quinoa with pinto beans and fried zucchini',
         'Kale soup',
         'Tomato soup',
         'Buttenut squash soup',
@@ -47,10 +47,19 @@ function drawLunchDish() {
  */
 function drawDinnerDish() {
     let dinnerDishes = [
-        
+        'Blackbeans stew with rice and bacon',
+        'Overnight marinated chicken roasted with potatoes and steamed vegetables',
+        'Orange chicken',
+        'Grilled marinated chicken fillet with turmeric rice',
+        'Spaghetti bolognese',
+        'Red lentils tomato coconut stew',
+        'White beans stew with sweet potatoes',
+        'Oven chicken thighs with aubergine',
+        'Baked salmon',
+        'Chicken tomato stew'
     ];
     
-    let getdinnerDish = dinnerDishes[Math.floor(Math.random() * dinnerDishes.length)];
+    let getDinnerDish = dinnerDishes[Math.floor(Math.random() * dinnerDishes.length)];
     
     document.getElementById('dish-name').innerHTML = getDinnerDish;
 }  
