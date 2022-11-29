@@ -63,3 +63,26 @@ function drawDinnerDish() {
     
     document.getElementById('dish-name').innerHTML = getDinnerDish;
 }  
+
+/**
+ * Draws a random dish for dessert
+ */
+ function drawDessertDish() {
+    let dessertDishes = [
+        'Homemade chocolate ice cream',
+        'Cheesecake',
+        'Doce de Leite',
+        'Pede Moca',
+        'Tiramisu',
+        'Beijinho',
+        'Brigadeiro',
+        'Sand cake',
+        'Donuts',
+        'Salted caramel ice cream',
+        'Chocolate mousse'
+    ];
+    
+    let getDessertDish = dessertDishes[Math.floor(Math.random() * dessertDishes.length)];
+    
+    document.getElementById('dish-name').innerHTML = getDessertDish;
+}  

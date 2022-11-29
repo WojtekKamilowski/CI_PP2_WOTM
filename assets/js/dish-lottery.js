@@ -43,7 +43,9 @@ function runDishLottery(mealType) {
          drawLunchDish(); 
     } else if (mealType === 'dinner') {
         drawDinnerDish();
-    }
+    } else if (mealType === 'dessert') {
+        drawDessertDish();
+    };
 }
 
 
