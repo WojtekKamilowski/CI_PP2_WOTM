@@ -1,3 +1,6 @@
+/**
+ * Draws a random dish for breakfast
+ */
 function drawBreakfastDish() {
     let breakfastDishes = [
         'Turkish eggs', 
@@ -17,6 +20,9 @@ function drawBreakfastDish() {
     document.getElementById('dish-name').innerHTML = getBreakfastDish;
 }
 
+/**
+ * Draws a random dish for lunch
+ */
 function drawLunchDish() {
     let lunchDishes = [
         'Tuna sandwich',
@@ -36,4 +42,15 @@ function drawLunchDish() {
     document.getElementById('dish-name').innerHTML = getLunchDish;
 }      
 
-
+/**
+ * Draws a random dish for dinner
+ */
+function drawDinnerDish() {
+    let dinnerDishes = [
+        
+    ];
+    
+    let getdinnerDish = dinnerDishes[Math.floor(Math.random() * dinnerDishes.length)];
+    
+    document.getElementById('dish-name').innerHTML = getDinnerDish;
+}  
