@@ -30,7 +30,6 @@ function runMealsScreen() {
 /**
 * Run the dish lottery with dish draw and quiz
 */
-
 function runDishLottery(mealType) {
     mainMealsScreen.style.display = "none";
     mainDishScreen.style.display = "block";
