@@ -36,8 +36,8 @@ function runDishLottery(mealType) {
 
     
     document.getElementById('meal-text').innerHTML = `Today for ${mealType} let's eat:`; // display selected meal type
-
-    if (mealType === 'breakfast') {
+    
+    if (mealType === 'breakfast') { //draw a dish for the chosen meal
         drawBreakfastDish();    
     } else if (mealType === 'lunch') {
          drawLunchDish(); 
@@ -46,7 +46,6 @@ function runDishLottery(mealType) {
     } else if (mealType === 'dessert') {
         drawDessertDish();
     };
-
     
     document.getElementById('different-dish').addEventListener("click", function() { // click on 'different-dish button to draw a different dish
         if (mealType === 'breakfast') {
@@ -59,6 +58,8 @@ function runDishLottery(mealType) {
             drawDessertDish();
         };
     });
-}
 
-
+    document.getElementById('return').addEventListener("click", function() {
+        runMealsScreen();
+    });    
+};
