@@ -33,7 +33,6 @@ body::before {
 h1 {
     font-size: 200%;
     color: #D27D2D;
-    width: fit-content;
     margin: 0 auto;
 }
 
@@ -123,11 +122,11 @@ body {
 
 .meal-box, .dish-box {
     background-color: #D27D2D;
-    width: 300px;
     box-sizing: border-box;
     border: 1px solid transparent; 
     border-color: black; 
     margin: 10px 0;
+    width: 80%;
     padding: 0.5vh 1vw;
 }
 
@@ -172,17 +171,6 @@ body {
 
 /* media queries */
 
-/* 1600px */
-
-@media screen and (max-width: 1600px) {
-
-    #main-container, #main-container-meals, #main-container-dishes {
-        margin-top: 5vh;
-        margin-bottom: 7vh;
-    }
-
-}
-
 /* 400px */
 
 @media screen and (max-width: 400px) {
@@ -192,7 +180,7 @@ body {
     }
 
     h1 {
-        font-size: 200%;
+        font-size: 100%;
     }
     
     #main-container, #main-container-meals, #main-container-dishes {
@@ -201,11 +189,27 @@ body {
 
     #main-container h2, #main-container-meals h2, #main-container-dishes h2 {
         font-size: 120%;
-        
-    }
-
-    .meal-box, .dish-box {
-        width: 75vw;
     }
 }
 
+/* 250x */
+
+@media screen and (max-width: 250px) {
+
+    #envelope {
+        float: none;
+    }
+    
+    #footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 150px;
+    }  
+
+    .social-icon, #envelope a {
+        font-size: 100%;   
+    }
+}
