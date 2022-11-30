@@ -20,7 +20,7 @@ function runMealsScreen() {
     mainDishScreen.style.display = "none";
 
     document.getElementById('meal-buttons').addEventListener("click", function(event) {
-        if (!event.target.className.includes('meal-box')) return;
+        if (!event.target.className.includes('meal-box')) return; // to fire event only when a button is clicked
         let button = event.target;
         let mealType = button.getAttribute('data-type');
         runDishLottery(mealType);      
@@ -35,7 +35,8 @@ function runDishLottery(mealType) {
     mainMealsScreen.style.display = "none";
     mainDishScreen.style.display = "block";
 
-    document.getElementById('meal-text').innerHTML = `Today for ${mealType} let's eat:`;
+    
+    document.getElementById('meal-text').innerHTML = `Today for ${mealType} let's eat:`; // display selected meal type
 
     if (mealType === 'breakfast') {
         drawBreakfastDish();    
@@ -47,7 +48,8 @@ function runDishLottery(mealType) {
         drawDessertDish();
     };
 
-    document.getElementById('different-dish').addEventListener("click", function() {
+    
+    document.getElementById('different-dish').addEventListener("click", function() { // click on 'different-dish button to draw a different dish
         if (mealType === 'breakfast') {
             drawBreakfastDish();    
         } else if (mealType === 'lunch') {
