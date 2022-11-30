@@ -46,6 +46,18 @@ function runDishLottery(mealType) {
     } else if (mealType === 'dessert') {
         drawDessertDish();
     };
+
+    document.getElementById('different-dish').addEventListener("click", function() {
+        if (mealType === 'breakfast') {
+            drawBreakfastDish();    
+        } else if (mealType === 'lunch') {
+             drawLunchDish(); 
+        } else if (mealType === 'dinner') {
+            drawDinnerDish();
+        } else if (mealType === 'dessert') {
+            drawDessertDish();
+        };
+    });
 }
 
 
