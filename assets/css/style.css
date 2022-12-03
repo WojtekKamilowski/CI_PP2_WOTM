@@ -120,7 +120,7 @@ body {
     justify-content: space-between;
 }
 
-.meal-box, .dish-box {
+.meal-box, .dish-box, .quiz-box {
     background-color: #D27D2D;
     box-sizing: border-box;
     border: 1px solid transparent; 
