@@ -130,6 +130,11 @@ body {
     padding: 0.5vh 1vw;
 }
 
+#recipe-link {
+    text-decoration: none;
+    color: black;
+}
+
 /* contact form */
 
 .contact-box {
