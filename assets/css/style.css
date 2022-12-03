@@ -130,6 +130,11 @@ body {
     padding: 0.5vh 1vw;
 }
 
+.meal-box:hover, .dish-box:hover {
+    background:  #e8be96;
+    cursor: pointer;
+}
+
 #recipe-link {
     text-decoration: none;
     color: black;
