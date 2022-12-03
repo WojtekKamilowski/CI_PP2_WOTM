@@ -102,7 +102,7 @@ body {
     margin: 15vh auto 15vh auto;
     background-color: #e8be96;
     box-sizing: border-box;
-    width: 60%;
+    width: 500px;
     max-width: 830px;
     padding: 0.5%;
 }
@@ -171,9 +171,9 @@ body {
 
 /* media queries */
 
-/* 400px */
+/* 500px */
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
 
     #logo i {
         font-size: 700%;
