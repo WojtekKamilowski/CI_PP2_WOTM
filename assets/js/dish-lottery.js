@@ -71,6 +71,7 @@ function runDishLottery(mealType) {
     
     document.getElementById('return').addEventListener("click", function() { //return to main menu
         runMealsScreen();
-    });    
+    });   
+
 };
 
