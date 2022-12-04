@@ -33,7 +33,6 @@ function runMealsScreen() {
 function runDishLottery(mealType) {
     mainMealsScreen.style.display = "none";
     mainDishScreen.style.display = "block";
-
     
     document.getElementById('meal-text').innerHTML = `Today for ${mealType} let's eat:`; // display selected meal type
     
@@ -71,7 +70,9 @@ function runDishLottery(mealType) {
     
     document.getElementById('return').addEventListener("click", function() { //return to main menu
         runMealsScreen();
-    });   
-
+    });
+    
+    startQuiz() 
 };
+
 
