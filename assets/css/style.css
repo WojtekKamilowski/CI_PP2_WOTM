@@ -101,6 +101,7 @@ body {
 #main-container, #main-container-meals, #main-container-dishes {
     margin: 15vh auto 15vh auto;
     background-color: #e8be96;
+    border-radius: 5px;
     box-sizing: border-box;
     width: 500px;
     max-width: 830px;
@@ -125,6 +126,7 @@ body {
     box-sizing: border-box;
     border: 1px solid transparent; 
     border-color: black; 
+    border-radius: 5px;
     margin: 10px 0;
     width: 80%;
     padding: 0.5vh 1vw;
