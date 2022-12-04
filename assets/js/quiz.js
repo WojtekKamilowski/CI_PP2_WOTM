@@ -1,0 +1,7 @@
+function startQuiz() {
+
+}
+
+function setNextQuestion() {
+    
+}
