@@ -102,6 +102,7 @@ body {
     margin: 15vh auto 15vh auto;
     background-color: #e8be96;
     border-radius: 5px;
+    box-shadow: 0 0 10px 2px;
     box-sizing: border-box;
     width: 500px;
     max-width: 830px;
