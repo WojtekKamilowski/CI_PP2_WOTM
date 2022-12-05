@@ -41,5 +41,15 @@ function selectAnswer(e) {
     Array.from(answerButtonsElement.children).forEach(quizButton => {
         setStatusClass(quizButton, quizButton.dataset.correct)        
     })
+    if (randomQuestions.length)
+}
+
+function setStatusClass(element, correct) {
+    clearStatusClass(element)
+    if (correct) {
+        element.classList.add('correct')        
+    } else {
+        element.classList.add('wrong')
+    }
 }
 
