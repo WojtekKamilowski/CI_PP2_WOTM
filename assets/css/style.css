@@ -122,7 +122,7 @@ body {
     justify-content: space-between;
 }
 
-.meal-box, .dish-box, .quiz-box {
+.meal-box, .dish-box, .quiz-box, .quiz-answer {
     background-color: #D27D2D;
     box-sizing: border-box;
     border: 1px solid transparent; 
@@ -133,7 +133,7 @@ body {
     padding: 0.5vh 1vw;
 }
 
-.meal-box:hover, .dish-box:hover, .form-button:hover {
+.meal-box:hover, .dish-box:hover, .form-button:hover, .quiz-answer:hover {
     background:  #dea46c;
     cursor: pointer;
 }

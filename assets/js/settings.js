@@ -96,10 +96,10 @@ let questions = [
     {
         question: 'Are tomatoes fruits or vegetables?',
         answers: [
-            { text: 'they are fruits', correct: true },
-            { text: 'they are vegetables', correct: false },
-            { text: 'they are both fruits and vegetables', correct: false },
-            { text: 'they are neither fruits no vegetables', correct: false }
+            { text: 'They are fruits', correct: true },
+            { text: 'They are vegetables', correct: false },
+            { text: 'They are both fruits and vegetables', correct: false },
+            { text: 'They are neither fruits no vegetables', correct: false }
         ]
     }
 ]

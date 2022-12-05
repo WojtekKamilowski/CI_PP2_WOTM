@@ -13,9 +13,11 @@ function setQuestion() {
 }
 
 function showQuestion(question) {
-    questionElement.innerHTML = question.question;
+    questionElement.innerText = question.question;
     question.answers.forEach(answer => {
-        document.getElementsByClassName('quiz-answer').innerHTML = answer.text;
+        let quizButton = document.createElement('button')
+        quizButton.innerText = answer.text
+        quizButton.classList.add('quiz-answer')
         if (answer.correct) {
             quizButton.dataset.correct = answer.correct
         }
@@ -24,7 +26,7 @@ function showQuestion(question) {
     })
 }
 
-function selectAnswer() {
+function selectAnswer(e) {
 
 }
 
