@@ -1,3 +1,5 @@
+// quiz based on https://www.youtube.com/watch?v=riDzcEQbX6k
+
 let randomQuestions, currentQuestionIndex;
 let questionElement = document.getElementById('quiz-question');
 let answerButtonsElement = document.getElementById('answers');
@@ -34,22 +36,16 @@ function resetQuestion() {
     }
 }
 
-
 function selectAnswer(e) {
     let selectedQuizButton = e.target
     let correct = selectedQuizButton.dataset.correct
-    Array.from(answerButtonsElement.children).forEach(quizButton => {
-        setStatusClass(quizButton, quizButton.dataset.correct)        
+    Array.from(answerButtonsElement.children).forEach(button => {
+        checkAnswer(button, button.dataset.correct)        
     })
-    if (randomQuestions.length)
 }
 
-function setStatusClass(element, correct) {
-    clearStatusClass(element)
+function checkAnswer(element, correct) {
     if (correct) {
-        element.classList.add('correct')        
-    } else {
-        element.classList.add('wrong')
-    }
+        alert("That's correct, congratulations!") 
+    }  
 }
-
