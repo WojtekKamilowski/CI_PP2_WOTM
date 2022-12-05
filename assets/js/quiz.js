@@ -36,6 +36,10 @@ function resetQuestion() {
 
 
 function selectAnswer(e) {
-
+    let selectedQuizButton = e.target
+    let correct = selectedQuizButton.dataset.correct
+    Array.from(answerButtonsElement.children).forEach(quizButton => {
+        setStatusClass(quizButton, quizButton.dataset.correct)        
+    })
 }
 
