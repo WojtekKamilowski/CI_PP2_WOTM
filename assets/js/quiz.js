@@ -40,12 +40,21 @@ function selectAnswer(e) {
     let selectedQuizButton = e.target
     let correct = selectedQuizButton.dataset.correct
     Array.from(answerButtonsElement.children).forEach(button => {
-        checkAnswer(button, button.dataset.correct)        
+        checkAnswer(button, button.dataset.correct)  
     })
 }
 
 function checkAnswer(element, correct) {
+    clearStatusClass(element)
     if (correct) {
-        alert("That's correct, congratulations!") 
-    }  
+        element.classList.add('correct')
+    } else {
+        element.classList.add('wrong')
+    }
 }
+
+function clearStatusClass(element) {
+    element.classList.remove('correct')
+    element.classList.remove('wrong')
+}
+

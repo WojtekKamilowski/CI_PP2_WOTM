@@ -150,6 +150,25 @@ body {
     justify-content: space-between;
 }
 
+.correct {
+    background-color: green;
+}
+
+.correct:hover {
+    background-color: green;
+    cursor: initial;
+}
+
+.wrong {
+    background-color: red;
+}
+
+.wrong:hover {
+    background-color: red;
+    cursor: initial;
+}
+
+
 /* contact form */
 
 .contact-box {
