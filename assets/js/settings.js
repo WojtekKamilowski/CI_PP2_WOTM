@@ -89,7 +89,6 @@ function drawDinnerDish() {
     document.getElementById('dish-name').innerHTML = getDessertDish;
 }  
 
-
 // quiz settings
 
 let questions = [
