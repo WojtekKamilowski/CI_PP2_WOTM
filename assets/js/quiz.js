@@ -9,6 +9,7 @@ function startQuiz() {
 }
 
 function setQuestion() {
+    resetQuestion()
     showQuestion(randomQuestions[currentQuestionIndex])  
 }
 
@@ -25,6 +26,14 @@ function showQuestion(question) {
         answerButtonsElement.appendChild(quizButton)
     })
 }
+
+function resetQuestion() {
+    while (answerButtonsElement.firstChild) {
+        answerButtonsElement.removeChild
+        (answerButtonsElement.firstChild)
+    }
+}
+
 
 function selectAnswer(e) {
 
