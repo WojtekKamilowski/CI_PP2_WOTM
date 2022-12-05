@@ -100,5 +100,13 @@ let questions = [
             { text: 'They are both fruits and vegetables', correct: false },
             { text: 'They are neither fruits no vegetables', correct: false }
         ]
+    },
+    {
+        question: 'Why aubergines are also called eggplants?',
+        answers: [
+            { text: 'Because chickens like to eat them', correct: false },
+            { text: 'Because they are high in protein', correct: false },
+            { text: 'Becaue when they are not ripe, they are white and sometimes have shape similar to eggs', correct: true },
+        ]
     }
 ]

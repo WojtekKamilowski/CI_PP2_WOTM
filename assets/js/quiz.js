@@ -3,6 +3,12 @@
 let randomQuestions, currentQuestionIndex;
 let questionElement = document.getElementById('quiz-question');
 let answerButtonsElement = document.getElementById('answers');
+let nextButton = document.getElementById('next-btn')
+
+nextButton.addEventListener('click', () => {
+    currentQuestionIndex++
+    startQuiz()
+})
 
 function startQuiz() {
     randomQuestions = questions.sort(() => Math.random() - .5);

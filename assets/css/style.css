@@ -140,9 +140,10 @@ body {
 .controls {
     text-align: center;
     margin: 0;
+    height: 20px;
 }
 
-.meal-box:hover, .dish-box:hover, .form-button:hover, .quiz-answer:hover, .controls:hover {
+.meal-box:hover, .dish-box:hover, .form-button:hover, .quiz-answer:hover {
     background:  #dea46c;
     cursor: pointer;
 }
