@@ -7,7 +7,10 @@ let nextButton = document.getElementById('next-btn')
 
 nextButton.addEventListener('click', () => {
     currentQuestionIndex++
-    startQuiz()
+    setQuestion()
+    if (randomQuestions.length > currentQuestionIndex + 1) {
+        startQuiz()
+    }    
 })
 
 function startQuiz() {
