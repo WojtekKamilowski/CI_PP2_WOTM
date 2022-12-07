@@ -40,8 +40,7 @@ function showQuestion(question) {
 
 function resetQuestion() {
     while (answerButtonsElement.firstChild) {
-        answerButtonsElement.removeChild
-        (answerButtonsElement.firstChild)
+        answerButtonsElement.removeChild(answerButtonsElement.firstChild)
     }
 }
 
