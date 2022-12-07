@@ -108,5 +108,78 @@ let questions = [
             { text: 'Because they are high in protein', correct: false },
             { text: 'Becaue when they are not ripe, they are white and sometimes have shape similar to eggs', correct: true },
         ]
+    },
+    {
+        question: 'Where pizza is from?',
+        answers: [
+            { text: 'Northern Africa - area around today country Libya', correct: false },
+            { text: 'Campania region, Italy', correct: true },
+            { text: 'Rome, Italy', correct: false },
+            { text: 'Sicily, Italy', correct: false}
+        ]
+    },
+    {
+        question: 'Where coffee is from?',
+        answers: [
+            { text: 'Area of today country Ethiopia', correct: true },
+            { text: 'Italy', correct: false },
+            { text: 'Brazil', correct: false },
+            { text: 'China', correct: false},
+            { text: 'Arabian Peninsula', correct: false}
+        ]
+    },
+    {
+        question: 'Where tea is from?',
+        answers: [
+            { text: 'India', correct: false },
+            { text: 'England', correct: false },
+            { text: 'Africa', correct: false },
+            { text: 'Russia', correct: false},
+            { text: 'China', correct: true}
+        ]
+    },
+    {
+        question: 'What is the origin of sandwiches',
+        answers: [
+            { text: 'In 1762 the Earl of Sandwich asked his cook to prepare some simple dish', correct: true },
+            { text: 'Idea of first British settlers in America', correct: false },
+            { text: 'Idea of the XIX centrury factory workers in the US', correct: false },
+            { text: 'Prepared for Polar exploration of Robert Falcon Scott', correct: false},
+        ]
+    },
+    {
+        question: 'Are all potatoes same?',
+        answers: [
+            { text: 'Yes, there are different potato species however you can use any of them with the same culinary effect', correct: false },
+            { text: 'No, there are different varieties of potatoes, however, the most import is to know that there are 3 categories: A. low starch, B. medium starch, and C. high starch', correct: true },
+            { text: 'All same as only one specie and variety is grown for human consumption', correct: false },
+            { text: 'Each variety is completely different and should be used for only one specific dish', correct: false},
+        ]
+    },
+    {
+        question: 'What is the most expensive beef in the world?',
+        answers: [
+            { text: 'Irish beef', correct: false },
+            { text: 'Argentinian beef', correct: false },
+            { text: 'Japanese Wagyu beef', correct: true },
+            { text: 'Italian beef', correct: false},
+        ]
+    },
+    {
+        question: 'Where burito is from?',
+        answers: [
+            { text: 'the United States', correct: true },
+            { text: 'Mexico', correct: false },
+            { text: 'Spain', correct: false },
+            { text: 'Cuba', correct: false},
+        ]
+    },
+    {
+        question: 'Is chorizo same food in Spain and Mexico?',
+        answers: [
+            { text: 'Yes, it is a type of pork cured meat', correct: false },
+            { text: 'Yes, it is made of ground pork', correct: false },
+            { text: 'No, in Spain it is a type of pork cured meat, but in Mexico it is made of ground pork', correct: true },
+        ]
     }
 ]
