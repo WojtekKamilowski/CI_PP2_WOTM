@@ -122,6 +122,10 @@ body {
     justify-content: space-between;
 }
 
+#dish-name {
+    text-align: center;
+}
+
 .meal-box, .dish-box, .quiz-box, .quiz-answer, .controls {
     background-color: #D27D2D;
     box-sizing: border-box;
