@@ -198,8 +198,7 @@ body {
     background-color: #D27D2D;
     box-sizing: border-box;
     border: 1px solid transparent; 
-    border-color: black; 
-    
+    border-color: black;    
 }
 
 #message {
@@ -220,6 +219,7 @@ body {
     border-color: black; 
     padding: 10px;
     font-weight: bold;
+    max-width: 80%;
 }
 
 /* media queries */
