@@ -52,9 +52,10 @@ function showQuestion(question) {
 * Resets the quiz to default state everytime a new question is set
 */
 function resetQuestion() {
+    clearStatusClass(document.getElementById('quiz'));
     while (answerButtonsElement.firstChild) {
         answerButtonsElement.removeChild(answerButtonsElement.firstChild)
-    }
+    };
 }
 
 /**
@@ -63,6 +64,7 @@ function resetQuestion() {
 function selectAnswer(e) {
     let selectedQuizButton = e.target
     let correct = selectedQuizButton.dataset.correct
+    checkAnswer(document.getElementById('quiz'), correct)
     Array.from(answerButtonsElement.children).forEach(button => {
         checkAnswer(button, button.dataset.correct)  
     })
