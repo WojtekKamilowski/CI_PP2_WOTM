@@ -30,7 +30,6 @@ function setQuestion() {
     showQuestion(randomQuestions[currentQuestionIndex])  
 }
 
-
 /**
 * Displays the quiz question
 * Add answers for the question
