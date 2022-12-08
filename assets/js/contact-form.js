@@ -22,6 +22,9 @@ document.getElementById("contact-form").addEventListener("submit", function (eve
             document.getElementById("feedback-heading").innerHTML = "Thank you for sending us a message! You can contact us again anytime it's needed!";  
             
             reloadContactPage.style.display = "block";
+            reloadContactPage.classList.add('submitted');
+            
+            document.getElementById("contact-menu-return").classList.add('submitted');
             
         }, (err) => {
             console.log(JSON.stringify(err));

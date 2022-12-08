@@ -209,6 +209,22 @@ body {
     border-color: black;    
     border-radius: 5px;
 }
+
+/* placeholder color from: https://www.w3schools.com/howto/howto_css_placeholder.asp */
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: black;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: black;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: black;
+  }
+
 /* hover on form inputs & textarea */
 .form-box:hover {
     background-color: #dea46c;
@@ -216,12 +232,14 @@ body {
 
 #message {
     max-width:80%;
+    padding: 5px;
 }
 
 #name, #email {
     margin: 5px 0 5px 15px;
     height: 25px;
     width: 80%;
+    padding: 5px;
 }
 
 .form-button {
@@ -239,7 +257,7 @@ body {
 }
 
 .submitted {
-    color: #002366;;
+    color: #002366;
 }
 
 .error {
