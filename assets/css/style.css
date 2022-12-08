@@ -240,6 +240,10 @@ body {
     color: #002366;;
 }
 
+.error {
+    color: red;
+}
+
 /* media queries */
 
 /* 500px */
