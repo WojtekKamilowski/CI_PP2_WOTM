@@ -105,6 +105,7 @@ body {
 
 /* main */
 
+/* main-containers */
 #main-container, #main-container-meals, #main-container-dishes {
     margin: 15vh auto 15vh auto;
     background-color: #e8be96;
@@ -116,10 +117,12 @@ body {
     padding: 0.5%;
 }
 
+/* main-containers h2*/
 #main-container h2, #main-container-meals h2, #main-container-dishes h2 {
     margin: 20px auto;
     text-align: center;
 }
+
 
 #meal-buttons, #dish-lottery, #quiz {
     margin: 20px 0;
@@ -133,7 +136,8 @@ body {
     text-align: center;
 }
 
-.meal-box, .dish-box, .quiz-box, .quiz-answer, .controls {
+/* boxes with meals, dishes, quiz, and quiz-answers */
+.meal-box, .dish-box, .quiz-box, .quiz-answer {
     background-color: #D27D2D;
     box-sizing: border-box;
     border: 1px solid transparent; 
@@ -146,12 +150,6 @@ body {
 
 #quiz-question {
     font-weight: bold;
-}
-
-.controls {
-    text-align: center;
-    margin: 0;
-    height: 20px;
 }
 
 /* hover on buttons */
@@ -172,6 +170,7 @@ body {
     justify-content: space-between;
 }
 
+/* correct quiz answer */
 .correct {
     background-color: green;
 }
@@ -181,6 +180,7 @@ body {
     cursor: initial;
 }
 
+/* wrong quiz answers */
 .wrong {
     background-color: red;
 }
@@ -189,7 +189,6 @@ body {
     background-color: red;
     cursor: initial;
 }
-
 
 /* contact form */
 
@@ -230,11 +229,13 @@ body {
     background-color: #dea46c;
 }
 
+/* form textarea */
 #message {
     max-width:80%;
     padding: 5px;
 }
 
+/* form inputs */
 #name, #email {
     margin: 5px 0 5px 15px;
     height: 25px;
@@ -242,6 +243,7 @@ body {
     padding: 5px;
 }
 
+/* form buttons */
 .form-button {
     margin: 10px 0;
     background-color: #D27D2D;
@@ -256,10 +258,12 @@ body {
     color: black;
 }
 
+/* color change after the form is submitted */
 .submitted {
     color: #002366;
 }
 
+/* color change in case an error with the form */ 
 .error {
     color: red;
 }
