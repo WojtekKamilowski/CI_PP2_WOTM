@@ -1,29 +1,40 @@
 // quiz based on https://www.youtube.com/watch?v=riDzcEQbX6k
 
-let randomQuestions, currentQuestionIndex;
-let questionElement = document.getElementById('quiz-question');
-let answerButtonsElement = document.getElementById('answers');
-let nextButton = document.getElementById('next-btn')
+let randomQuestions, currentQuestionIndex; // declared variables to be defined
+let questionElement = document.getElementById('quiz-question'); // quiz-question p
+let answerButtonsElement = document.getElementById('answers'); // div with possible answers for the quiz
+let nextButton = document.getElementById('next-btn') // ask me again! button 
 
-nextButton.addEventListener('click', () => {
+nextButton.addEventListener('click', () => { // sets a random quiz after clicking ask me again! button
     currentQuestionIndex++
     setQuestion()
-    if (randomQuestions.length > currentQuestionIndex + 1) {
+    if (randomQuestions.length > currentQuestionIndex + 1) { //restarts the quiz after all questions have been displayed
         startQuiz()
     }    
 })
 
+/**
+* Starts quiz with a random question
+*/
 function startQuiz() {
     randomQuestions = questions.sort(() => Math.random() - .5);
     currentQuestionIndex = 0
     setQuestion();    
 }
 
+/**
+* Set up a next quiz question
+*/
 function setQuestion() {
     resetQuestion()
     showQuestion(randomQuestions[currentQuestionIndex])  
 }
 
+
+/**
+* Displays the quiz question
+* Add answers for the question
+*/
 function showQuestion(question) {
     questionElement.innerText = question.question;
     question.answers.forEach(answer => {
@@ -38,12 +49,18 @@ function showQuestion(question) {
     })
 }
 
+/**
+* Resets the quiz to default state everytime a new question is set
+*/
 function resetQuestion() {
     while (answerButtonsElement.firstChild) {
         answerButtonsElement.removeChild(answerButtonsElement.firstChild)
     }
 }
 
+/**
+* Activates quiz results after clicking on an answer
+*/
 function selectAnswer(e) {
     let selectedQuizButton = e.target
     let correct = selectedQuizButton.dataset.correct
@@ -52,6 +69,9 @@ function selectAnswer(e) {
     })
 }
 
+/**
+*  Checks which answers is correct and which are not
+*/
 function checkAnswer(element, correct) {
     clearStatusClass(element)
     if (correct) {
@@ -61,6 +81,9 @@ function checkAnswer(element, correct) {
     }
 }
 
+/**
+* Removes correct/ wrong classes before checking the answer
+*/
 function clearStatusClass(element) {
     element.classList.remove('correct')
     element.classList.remove('wrong')
