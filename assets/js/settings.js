@@ -91,6 +91,9 @@ function drawDinnerDish() {
 
 // quiz settings
 
+/**
+* questions for the quiz with possible correct or wrong answers
+*/
 let questions = [
     {
         question: 'Are tomatoes fruits or vegetables?',
