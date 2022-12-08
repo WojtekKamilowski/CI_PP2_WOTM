@@ -207,6 +207,7 @@ body {
     box-sizing: border-box;
     border: 1px solid transparent; 
     border-color: black;    
+    border-radius: 5px;
 }
 /* hover on form inputs & textarea */
 .form-box:hover {
@@ -229,6 +230,7 @@ body {
     box-sizing: border-box;
     border: 1px solid transparent; 
     border-color: black; 
+    border-radius: 5px;
     padding: 10px;
     font-weight: bold;
     max-width: 80%;
