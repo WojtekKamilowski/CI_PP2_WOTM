@@ -98,6 +98,11 @@ body {
     color: black;
 }
 
+/* hover on footer icons */
+.social-icon i:hover, #envelope i:hover {
+    color: #d7dedc;
+}
+
 /* main */
 
 #main-container, #main-container-meals, #main-container-dishes {
@@ -149,6 +154,7 @@ body {
     height: 20px;
 }
 
+/* hover on buttons */
 .meal-box:hover, .dish-box:hover, .form-button:hover, .quiz-answer:hover {
     background:  #dea46c;
     cursor: pointer;
@@ -201,6 +207,10 @@ body {
     box-sizing: border-box;
     border: 1px solid transparent; 
     border-color: black;    
+}
+/* hover on form inputs & textarea */
+.form-box:hover {
+    background-color: #dea46c;
 }
 
 #message {
