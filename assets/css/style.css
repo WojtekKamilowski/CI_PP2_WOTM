@@ -280,6 +280,12 @@ body {
     margin: 20px auto;
 }
 
+.not-found-box p {
+    font-size: 150%;
+    color: red;
+    font-weight: bold;
+}
+
 /* media queries */
 
 /* 500px */
