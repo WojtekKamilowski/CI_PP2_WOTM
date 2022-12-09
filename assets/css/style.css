@@ -155,7 +155,7 @@ body {
 }
 
 /* hover on buttons */
-.meal-box:hover, .dish-box:hover, .form-button:hover, .quiz-answer:hover {
+.meal-box:hover, .dish-box:hover, .form-button:hover, .quiz-answer:hover, .not-found-return:hover  {
     background:  #dea46c;
     cursor: pointer;
 }
@@ -285,6 +285,20 @@ body {
     font-size: 150%;
     color: red;
     font-weight: bold;
+}
+
+.not-found-return {
+    margin: 50px 0;
+    background-color: #D27D2D;
+    box-sizing: border-box;
+    border: 1px solid transparent; 
+    border-color: black; 
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bold;
+    max-width: 80%;
+    text-decoration: none;
+    color: black;
 }
 
 /* media queries */
