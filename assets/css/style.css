@@ -174,11 +174,11 @@ body {
 
 /* correct quiz answer */
 .correct {
-    background-color: green;
+    background-color: #005C00;
 }
 
 .correct:hover {
-    background-color: green;
+    background-color: #005C00;
     cursor: initial;
 }
 
