@@ -194,7 +194,7 @@ body {
 
 /* contact form */
 
-.contact-box {
+.contact-box, .not-found-box {
     display: flex;
     flex-direction: column;
     align-items: baseline;
