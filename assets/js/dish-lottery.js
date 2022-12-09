@@ -50,7 +50,7 @@ function runDishLottery(mealType) {
         document.getElementById('recipe-link').href=`https://www.google.com/search?q=recipes+for+${dishName}&hl=en&sxsrf=ALiCzsYR5CzJanwqS0khWpaqRrnCjg2A8w%3A1670087304524&ei=iIKLY_zQH8PB8gLl6o_oDw&ved=0ahUKEwj8tJ6E-N37AhXDoFwKHWX1A_0Q4dUDCA8&uact=5&oq=recipes+for&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIECCMQJzIECCMQJzIFCAAQkQIyBQgAEJECMgQIABBDMgUIABCRAjIFCAAQkQIyBAgAEEMyBAgAEEMyBAgAEEM6CggAEEcQ1gQQsAM6BQgAEIAESgQIQRgASgQIRhgAUNABWPcCYLEFaAFwAXgAgAFqiAG7AZIBAzEuMZgBAKABAcgBCMABAQ&sclient=gws-wiz-serp`
     };
 
-    document.getElementById('recipe').addEventListener("click", function() { //search for a recipe on google.com
+    document.getElementById('recipe-link').addEventListener("click", function() { //search for a recipe on google.com
         recipeSearch()
     });
 
