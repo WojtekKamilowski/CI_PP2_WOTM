@@ -152,6 +152,7 @@ body {
 
 #quiz-question {
     font-weight: bold;
+    text-align: center;
 }
 
 /* hover on buttons */
