@@ -1,108 +1,301 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# what'sOnTheMenu
+(Developer: Kamil Wojciechowski)
 
-Welcome WojtekKamilowski,
+![Mockup image]()
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+[Live webpage](https://wojtekkamilowski.github.io/CI_PP2_WOTM/)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## Table of Contents
 
-## Gitpod Reminders
+1. [Project Goals](#project-goals)
+    - [User Goals](#user-goals)
+    - [Business Owner Goals](#business-owner-goals)
+2. [User Experience](#user-experience)
+    - [Target Audience](#target-audience)
+    - [User Requirements and Expectations](#user-requirements-and-expectations)
+    - [User Stories](#user-stories)
+3. [Design](#design)
+    - [Design Choices](#design-choices)
+    - [Color](#color)
+    - [Fonts](#fonts)
+    - [Structure](#structure)
+    - [Wireframes](#wireframes)
+4. [Languages](#languages)
+5. [Technologies Used](#technologies-used)
+6. [Features](#features)
+7. [Validation](#validation)
+    - [HTML Validation](#HTML-validation)
+    - [CSS Validation](#CSS-validation)
+    - [Accessibility](#accessibility)
+    - [Performance](#performance)
+    - [Device testing](#device-testing)
+    - [Browser compatibility](#browser-compatibility)
+    - [Testing user stories](#testing-user-stories)
+ 8. [Bugs](#Bugs)
+ 9. [Deployment](#deployment)
+ 10. [Credits](#credits)
+ 11. [Acknowledgements](#acknowledgements)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Project Goals
 
-`python3 -m http.server`
+### User Goals
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
+### Business Owner Goals
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: _Make Public_,
+[Back to Table Of Contents](#table-of-contents)
 
-Another blue button should appear to click: _Open Browser_.
+## User Experience
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### Target Audience
 
-To log into the Heroku toolbelt CLI:
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### User Requirements and Expectations
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+[Back to Table Of Contents](#table-of-contents)
 
-------
+### User Stories
 
-## Release History
+#### First-time User
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+As a first time user I want to:
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+#### Returning User
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+As a returning user I want to:
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+#### Business Owner 
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+As the restaurant owner I want to:
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+[Back to Table Of Contents](#table-of-contents)
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+## Design
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+### Design Choices 
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+[Back to Table Of Contents](#table-of-contents)
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### Color
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+![Color scheme](docs/features/colors.jpg)
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+[Back to Table Of Contents](#table-of-contents)
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+### Fonts
 
-------
 
-## FAQ about the uptime script
+[Back to Table Of Contents](#table-of-contents)
 
-**Why have you added this script?**
+### Structure
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
 
-**How will this affect me?**
+[Back to Table Of Contents](#table-of-contents)
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+## Wireframes
+<details>
+    <summary>Home</summary>
+    
+</details>
+<details>
+    <summary>Contact</summary>
+    
+</details>
+<details>
+    <summary>404</summary>
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+</details>
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+[Back to Table Of Contents](#table-of-contents)
 
-**So….?**
+## Languages
+- HTML
+- CSS
+- JavaScript
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+## Technologies Used
 
-**Can I opt out?**
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+[Back to Table Of Contents](#table-of-contents)
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+## Features
+On the website there are four pages with twelve features in total.
 
-**Anything more?**
+<details>
+    <summary>Logo </summary>  
+    
+</details> 
+<details>
+    <summary>Footer</summary> 
+    
+    
+</details>
+<details>   
+    <summary>Meals</summary>     
+   
+</details>
+<details>
+    <summary>Dish Lottery</summary>
+    
+</details>
+<details>
+    <summary>Quiz</summary> 
+    
+</details>
+<details>
+    <summary>Contact form</summary>
+   
+</details>
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+[Back to Table Of Contents](#table-of-contents)
 
----
+## Validation
 
-Happy coding!
+### HTML Validation
+To validate HTML of the website the W3C Markup Validation Service was used. The results have no errors.
+
+#### Home
+![HTML Validation Home](docs/validation/)
+
+#### Menu
+![HTML Validation Menu](docs/validation/)
+
+#### About us
+![HTML Validation About us](docs/validation/)
+
+#### Contact
+![HTML Validation Contact](docs/validation/)
+
+#### 404
+![HTML Validation 404](docs/)
+
+### CSS Validation
+To validate style.css the W3C Jigsaw CSS Validation Service was used. There were no errors found.
+
+![CSS Validation](docs/validation/)
+
+[Back to Table Of Contents](#table-of-contents)
+
+## Accessibility
+Accessibility was tested using WAVE - Web Accessibility Evaluation Tool. All of the pages have no errors.
+
+### Home
+![Accessibility Validation Home](docs/validation/)
+
+### Menu
+![Accessibility Validation Menu](docs/validation/)
+
+### About us
+![Accessibility Validation About us](docs/validation/)
+
+### Contact
+![Accessibility Validation Contact](docs/validation/)
+
+### 404
+![Accessibility Validation 404](docs/validation/)
+
+[Back to Table Of Contents](#table-of-contents)
+
+## Performance
+The tool used to test the performance of the website was Google Lighthouse from Google Chrome Developer Tools.
+
+### Home
+
+#### Desktop
+![Performance Home Desktop](docs/validation/)
+
+#### Mobile
+![Performance Home Mobile](docs/validation/)
+
+### Contact
+
+#### Desktop
+![Performance Menu Desktop](docs/validation/)
+
+#### Mobile
+![Performance Menu Mobile](docs/validation/)
+
+### 404
+
+#### Desktop
+![Performance 404 Desktop](docs/validation/)
+
+#### Mobile
+![Performance 404 Mobile](docs/validation/)
+
+[Back to Table Of Contents](#table-of-contents)
+
+## Device testing
+List of devices used to test the website:
+- HP Pavilion 14 
+- Acer Nitro 5 with and without an external monitor (HP V22)
+- Sony Xperia L2
+- Motorola Moto G20
+
+The website was also tested using Google Chrome Developer Tools, Toggle Device Toolbar simulating view from twenty-five listed devices, including popular amongst users iPad and iPhone 5.
+
+## Browser compatibility
+Following browsers were used to test the website:
+- Google Chrome
+- Mozilla Firefox
+- Microsoft Edge
+
+[Back to Table Of Contents](#table-of-contents)
+
+## Testing user stories 
+
+1. As a first time user I want to know if there is some disruption to the usual opening times or other very important information:
+
+| Feature | Action  | Expected Result | Actual Result |
+| ------- | ------- | --------------- | ------------- |
+|  |  |  |  |
+
+![Testing user story 1](docs/user-story-testing/user-story-1.jpg)
+
+[Back to Table Of Contents](#table-of-contents)
+
+
+## Bugs
+| Bug  | Fix  |
+| ------- | ------- |
+|  |  |
+
+[Back to Table Of Contents](#table-of-contents)
+
+## Deployment 
+The website was deployed on GitHub Pages as per following steps:
+1. From the GitHub repository open the settings tab.
+2. Select Pages from the options on the left (Code and automation section).
+3. Source: deploy from a branch.
+4. Branch: main.
+5. Once the page is reloaded there was a notification "Your site is live at https://wojtekkamilowski.github.io/CI_PP2_WOTM/index.html"
+
+To fork the repository you should:
+
+1. Open the repository: https://github.com/WojtekKamilowski/CI_PP2_WOTM
+2. Select Fork from the options on the right.
+
+To clone the GitHub repository you should:
+1. Open the repository: https://github.com/WojtekKamilowski/CI_PP2_WOTM
+2. In the Code tab select click on Code button and select the preferred option (HTTPS/SSH/Github CLI) and click the copy button on the right of URL
+3. Open Git Bash and change the current working directory to the desired one.
+6. Type git clone and paste the previously copied URL from GitHub then pressing the enter button should create a local clone.
+
+[Back to Table Of Contents](#table-of-contents)
+
+## Credits 
+
+### Media
+
+### Code
+
+[Back to Table Of Contents](#table-of-contents)
+
+## Acknowledgements
+I would like to thank those who were a great support and inspiration during writing this project:
+- My mentor Mo Shami.
+- Code Institute for preparing the materials and providing a wide range of available means of learning for the students.
+- My family who were the first users to test the website.
