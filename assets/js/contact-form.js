@@ -35,4 +35,4 @@ document.getElementById("contact-form").addEventListener("submit", function (eve
             reloadContactPage.style.display = "block";
         });
 });
-}
+};
