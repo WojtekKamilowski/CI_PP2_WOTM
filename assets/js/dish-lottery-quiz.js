@@ -3,7 +3,7 @@
  */
 document.addEventListener('DOMContentLoaded', function () {
     runMealsScreen();
-})
+});
 
 /**
  * Set up of lottery variables to vary display/hide
@@ -43,15 +43,15 @@ function runDishLottery(mealType) {
         drawDinnerDish();
     } else if (mealType === 'dessert') {
         drawDessertDish();
-    };
+    }
 
     function recipeSearch() { //adds href to id=recipe-link
-        let dishName = document.getElementById('dish-name').innerHTML
-        document.getElementById('recipe-link').href=`https://www.google.com/search?q=recipes+for+${dishName}&hl=en&sxsrf=ALiCzsYR5CzJanwqS0khWpaqRrnCjg2A8w%3A1670087304524&ei=iIKLY_zQH8PB8gLl6o_oDw&ved=0ahUKEwj8tJ6E-N37AhXDoFwKHWX1A_0Q4dUDCA8&uact=5&oq=recipes+for&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIECCMQJzIECCMQJzIFCAAQkQIyBQgAEJECMgQIABBDMgUIABCRAjIFCAAQkQIyBAgAEEMyBAgAEEMyBAgAEEM6CggAEEcQ1gQQsAM6BQgAEIAESgQIQRgASgQIRhgAUNABWPcCYLEFaAFwAXgAgAFqiAG7AZIBAzEuMZgBAKABAcgBCMABAQ&sclient=gws-wiz-serp`
-    };
+        let dishName = document.getElementById('dish-name').innerHTML;
+        document.getElementById('recipe-link').href=`https://www.google.com/search?q=recipes+for+${dishName}&hl=en&sxsrf=ALiCzsYR5CzJanwqS0khWpaqRrnCjg2A8w%3A1670087304524&ei=iIKLY_zQH8PB8gLl6o_oDw&ved=0ahUKEwj8tJ6E-N37AhXDoFwKHWX1A_0Q4dUDCA8&uact=5&oq=recipes+for&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIECCMQJzIECCMQJzIFCAAQkQIyBQgAEJECMgQIABBDMgUIABCRAjIFCAAQkQIyBAgAEEMyBAgAEEMyBAgAEEM6CggAEEcQ1gQQsAM6BQgAEIAESgQIQRgASgQIRhgAUNABWPcCYLEFaAFwAXgAgAFqiAG7AZIBAzEuMZgBAKABAcgBCMABAQ&sclient=gws-wiz-serp`;
+    }
 
     document.getElementById('recipe-link').addEventListener("click", function() { //search for a recipe on google.com
-        recipeSearch()
+        recipeSearch();
     });
 
     
@@ -64,15 +64,15 @@ function runDishLottery(mealType) {
             drawDinnerDish();
         } else if (mealType === 'dessert') {
             drawDessertDish();
-        };
+        }
     }); 
     
     document.getElementById('return').addEventListener("click", function() { //return to main menu
         runMealsScreen();
     });
     
-    startQuiz() 
-};
+    startQuiz();
+}
 
 // quiz based on https://www.youtube.com/watch?v=riDzcEQbX6k
 
@@ -82,18 +82,18 @@ let answerButtonsElement = document.getElementById('answers'); // div with possi
 let nextButton = document.getElementById('next-btn'); // ask me again! button 
 
 nextButton.addEventListener('click', () => { // sets a random quiz after clicking ask me again! button
-    currentQuestionIndex++
+    currentQuestionIndex++;
     setQuestion();
     if (randomQuestions.length > currentQuestionIndex + 1) { //restarts the quiz after all questions have been displayed
         startQuiz();
     }    
-})
+});
 
 /**
 * Starts quiz with a random question
 */
 function startQuiz() {
-    randomQuestions = questions.sort(() => Math.random() - .5);
+    randomQuestions = questions.sort(() => Math.random() - 0.5);
     currentQuestionIndex = 0;
     setQuestion();    
 }
@@ -117,11 +117,11 @@ function showQuestion(question) {
         quizButton.innerText = answer.text;
         quizButton.classList.add('quiz-answer');
         if (answer.correct) {
-            quizButton.dataset.correct = answer.correct
-        };
+            quizButton.dataset.correct = answer.correct;
+        }
         quizButton.addEventListener('click', selectAnswer);
         answerButtonsElement.appendChild(quizButton);
-    })
+    });
 }
 
 /**
@@ -130,8 +130,8 @@ function showQuestion(question) {
 function resetQuestion() {
     clearStatusClass(document.getElementById('quiz'));
     while (answerButtonsElement.firstChild) {
-        answerButtonsElement.removeChild(answerButtonsElement.firstChild)
-    };
+        answerButtonsElement.removeChild(answerButtonsElement.firstChild);
+    }
 }
 
 /**
@@ -141,7 +141,7 @@ function resetQuestion() {
 function selectAnswer(e) {
     let selectedQuizButton = e.target;
     let correct = selectedQuizButton.dataset.correct;
-    checkAnswer(document.getElementById('quiz'), correct)
+    checkAnswer(document.getElementById('quiz'), correct);
     Array.from(answerButtonsElement.children).forEach(button => {
         checkAnswer(button, button.dataset.correct);
     });
@@ -156,7 +156,7 @@ function checkAnswer(element, correct) {
         element.classList.add('correct');
     } else {
         element.classList.add('wrong');
-    };
+    }
 }
 
 /**
