@@ -166,6 +166,7 @@ body {
 }
 
 #recipe-link {
+    text-align: center;
     text-decoration: none;
     color: black;
 }
