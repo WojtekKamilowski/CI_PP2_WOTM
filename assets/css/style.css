@@ -114,7 +114,7 @@ body {
 
 /* main-containers */
 #main-container, #main-container-meals, #main-container-dishes {
-    margin: 15vh auto 20vh auto;
+    margin: 20vh auto 20vh auto;
     background-color: #e8be96;
     border-radius: 5px;
     box-shadow: 0 0 10px 2px;
