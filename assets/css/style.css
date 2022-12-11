@@ -190,11 +190,11 @@ body {
 
 /* wrong quiz answers */
 .wrong {
-    background-color: #A30000;
+    background-color: #FF0505;
 }
 
 .wrong:hover {
-    background-color:  #A30000;
+    background-color: #FF0505;
     cursor: initial;
 }
 
@@ -273,7 +273,7 @@ body {
 
 /* color change in case an error with the form */ 
 .error {
-    color: #A30000;
+    color: #FF0505;
 }
 
 /* 404 */
@@ -290,7 +290,7 @@ body {
     text-align: center;
     margin: 50px 0;
     font-size: 150%;
-    color: #A30000;
+    color: #FF0505;
     font-weight: bold;
 }
 

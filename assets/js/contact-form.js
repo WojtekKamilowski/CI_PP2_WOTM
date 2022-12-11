@@ -25,7 +25,7 @@ document.getElementById("contact-form").addEventListener("submit", function (eve
             reloadContactPage.classList.add('submitted');
             
             document.getElementById("contact-menu-return").classList.add('submitted');
-            document.getElementById("contact-form").reset();
+            document.getElementById("contact-form").reset(); // reset form after submission https://stackoverflow.com/questions/14589193/clearing-my-form-inputs-after-submission
             
         }, (err) => {
             console.log(JSON.stringify(err));
