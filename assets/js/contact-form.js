@@ -25,6 +25,7 @@ document.getElementById("contact-form").addEventListener("submit", function (eve
             reloadContactPage.classList.add('submitted');
             
             document.getElementById("contact-menu-return").classList.add('submitted');
+            document.getElementById("contact-form").reset();
             
         }, (err) => {
             console.log(JSON.stringify(err));
