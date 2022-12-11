@@ -180,21 +180,21 @@ body {
 
 /* correct quiz answer */
 .correct {
-    background-color: #005C00;
+    background-color: #008A00;
 }
 
 .correct:hover {
-    background-color: #005C00;
+    background-color: #008A00;
     cursor: initial;
 }
 
 /* wrong quiz answers */
 .wrong {
-    background-color: #FF0505;
+    background-color: #A80000;
 }
 
 .wrong:hover {
-    background-color: #FF0505;
+    background-color: #A80000;
     cursor: initial;
 }
 
@@ -273,7 +273,7 @@ body {
 
 /* color change in case an error with the form */ 
 .error {
-    color: #FF0505;
+    color: #A80000;
 }
 
 /* 404 */
@@ -290,7 +290,7 @@ body {
     text-align: center;
     margin: 50px 0;
     font-size: 150%;
-    color: #FF0505;
+    color: #A80000;
     font-weight: bold;
 }
 
