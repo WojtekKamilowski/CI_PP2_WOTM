@@ -180,21 +180,23 @@ body {
 
 /* correct quiz answer */
 .correct {
-    background-color: #008A00;
+    background-color: #006100;
 }
 
 .correct:hover {
-    background-color: #008A00;
+    background-color: #006100;
     cursor: initial;
 }
 
 /* wrong quiz answers */
 .wrong {
     background-color: #A80000;
+    color: #C8C0F1;
 }
 
 .wrong:hover {
     background-color: #A80000;
+    color: #C8C0F1;
     cursor: initial;
 }
 
