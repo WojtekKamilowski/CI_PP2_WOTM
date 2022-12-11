@@ -181,10 +181,12 @@ body {
 /* correct quiz answer */
 .correct {
     background-color: #003300;
+    color: #969696;
 }
 
 .correct:hover {
     background-color: #003300;
+    color: #969696;
     cursor: initial;
 }
 
