@@ -193,12 +193,12 @@ body {
 /* wrong quiz answers */
 .wrong {
     background-color: #5C0000;
-    color: #C8C0F1;
+    color: #969696;
 }
 
 .wrong:hover {
     background-color: #5C0000;
-    color: #C8C0F1;
+    color: #969696;
     cursor: initial;
 }
 
