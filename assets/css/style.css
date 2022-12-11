@@ -181,24 +181,24 @@ body {
 /* correct quiz answer */
 .correct {
     background-color: #003300;
-    color: #969696;
+    color: #DDA169;
 }
 
 .correct:hover {
     background-color: #003300;
-    color: #969696;
+    color: #DDA169;
     cursor: initial;
 }
 
 /* wrong quiz answers */
 .wrong {
     background-color: #5C0000;
-    color: #969696;
+    color: #DDA169;
 }
 
 .wrong:hover {
     background-color: #5C0000;
-    color: #969696;
+    color: #DDA169;
     cursor: initial;
 }
 
