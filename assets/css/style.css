@@ -161,7 +161,7 @@ body {
 
 /* hover on buttons */
 .meal-box:hover, .dish-box:hover, .form-button:hover, .quiz-answer:hover, .not-found-return:hover  {
-    background:  #dea46c;
+    background:  #E9BF9B;
     cursor: pointer;
 }
 
@@ -238,7 +238,7 @@ body {
 
 /* hover on form inputs & textarea */
 .form-box:hover {
-    background-color: #dea46c;
+    background-color: #E9BF9B;
 }
 
 /* form textarea */
