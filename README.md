@@ -131,7 +131,9 @@ Colors change when user hover mouse on clickable elements of the website.
 Quiz colors change after choosing an answer:
 - the quiz div background color changes to green if the user selected correct answer or to red if the answer was wrong.
 - the correct answer background color changes to green and wrong answers background color changes to red. 
-
+<details>
+    <summary>Colors contrasts</summary>
+    
 ![Color scheme](docs/features/colors/colors-black-orange.png)
 ![Color scheme](docs/features/colors/colors-black-light-orange.png)
 ![Color scheme](docs/features/colors/colors-black-hover-orange.png)
@@ -140,6 +142,7 @@ Quiz colors change after choosing an answer:
 ![Color scheme](docs/features/colors/colors-blue-orange.png)
 ![Color scheme](docs/features/colors/colors-blue-light-orange.png)
 ![Color scheme](docs/features/colors/colors-blue-hover-orange.png)
+</details>
 
 [Back to Table Of Contents](#table-of-contents)
 
