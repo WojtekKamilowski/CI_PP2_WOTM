@@ -105,7 +105,7 @@ As the owner I want to:
 12. Allow users to reinitiate lottery.
 13. Provide users with various options of the recipe for the drawn dish.
 14. Allow users to easily navigate the website.
-15. Entertain the users with the quiz to maxime the time they spent on the website.
+15. Entertain the users with the quiz to maximise the time they spent on the website.
 16. Link users with our social media pages.
 17. Provide users with a feature to contact us.
 
@@ -203,20 +203,31 @@ The website consists of two pages:
 - HTML Color Codes to find the main orange color : #D27D2D
 - Color Meanings to find the blue color: #002366
 - WebAIM to check for contrasts and identify hex codes for other colors(tones of orange: #DDA169 & hover: #E9BF9B; green: #003300 & red: #5C0000) 
+- YouTube to find video tutorials with Random From Array and Quiz App.
 
 [Back to Table Of Contents](#table-of-contents)
 
 ## Features
-On the website there are four pages with twelve features in total.
+On the website there are two pages.
 
 <details>
-    <summary>Logo </summary>  
-    
+    <summary>Logo and website name</summary>  
+    It is included on all two pages and 404.<br> 
+    The logo includes an icon.br>
+    The logo and the website name are clickable link to Home page which is a common feature on many websites so users expect it.<br> 
+    When the user hovers the mouse over the other pages links they change color informing the user that it is clickable.<br> 
+    Logo and website name are responsive, the font size reduces for smaller screens.<br>
+    User stories covered: 4, 9, 14. 
+    <img src="docs/features/features-logo-and-website-name.png">    
 </details> 
 <details>
     <summary>Footer</summary> 
-    
-    
+    Appears on two pages and 404.<br>
+    Contains social media and envelope icons.<br> 
+    The icons change color when users hover the mouse over them to indicate they can be clicked.<br>
+    It is responsive icons move closer to each other, they reduce size for very small screens.
+    User stories covered: 4, 7, 8, 13, 14, 16, 17.
+    <img src="docs/features/features-footer.png">  
 </details>
 <details>   
     <summary>Meals</summary>     
