@@ -43,10 +43,16 @@
 - Easily run the dish lottery again in case the first drawn dish does not match the user's expectations.
 - Look for recipes in case the user would like but does not know how to prepare / what is the drawn dish.
 - Easily navigation throught the website.
-- Entertainment with the quiz.
+- Entertainment with the quiz possibly while making the decision if the user would like to eat the drawn dish.
+- Find social media of the website to find more content about food and network with other users with similar interests.
+- Ask questions or provide feedback for the website owner by using the contact form. 
 
 ### Business Owner Goals
-
+- Give users a random idea what to eat.
+- Help users to search more about the drawn dish through the search engine.
+- Entartain the user with the quiz to maximise the time spent on the website.
+- Allow users to easily visit social media pages of the owner. 
+- Collect feedback or answer questions from the users by using the contact form.
 
 [Back to Table Of Contents](#table-of-contents)
 
