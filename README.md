@@ -118,13 +118,25 @@ The main design choice was to create a simple website to help people answer the 
 The logo is a simply fork and knife to inform the user that the website is food related.
 The name: "what'sOnTheMenu" - is to present to the user to expect that the website is a contemporary place where they can built their own everyday food menu. 
 Buttons were designed with simple icons to be intuitive. 
+Quiz was designed to be easy to understand and bring some interesting facts about the subject.
 
 
 [Back to Table Of Contents](#table-of-contents)
 
 ### Color
+The chosen colors were: black, orange (three different tones), green, red and blue. 
+The colors were chosen to be simple and users to be familiar with the theme. 
 
-![Color scheme](docs/features/)
+Quiz colors change so 
+
+![Color scheme](docs/features/colors/colors-black-orange.png)
+![Color scheme](docs/features/colors/colors-black-light-orange.png)
+![Color scheme](docs/features/colors/colors-black-hover-orange.png)
+![Color scheme](docs/features/colors/colors-correct.png)
+![Color scheme](docs/features/colors/colors-wrong.png)
+![Color scheme](docs/features/colors/colors-blue-orange.png)
+![Color scheme](docs/features/colors/colors-blue-light-orange.png)
+![Color scheme](docs/features/colors/colors-blue-hover-orange.png)
 
 [Back to Table Of Contents](#table-of-contents)
 

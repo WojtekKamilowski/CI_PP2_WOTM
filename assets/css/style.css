@@ -52,6 +52,10 @@ h1 {
     margin: 0 auto;
 }
 
+#logo i:hover, h1:hover {
+    color: #E9BF9B;
+}
+
 /* sticky footer from https://css-tricks.com/couple-takes-sticky-footer/ */
 
 body {
@@ -160,7 +164,7 @@ body {
 }
 
 /* hover on buttons */
-.meal-box:hover, .dish-box:hover, .form-button:hover, .quiz-answer:hover, .not-found-return:hover  {
+.meal-box:hover, .dish-box:hover, .form-button:hover, .quiz-answer:hover, .not-found-return:hover {
     background:  #E9BF9B;
     cursor: pointer;
 }
