@@ -1,7 +1,7 @@
 # what'sOnTheMenu
 (Developer: Kamil Wojciechowski)
 
-![Mockup image]()
+![Mockup image](docs/am-i-responsive.png)
 
 [Live webpage](https://wojtekkamilowski.github.io/CI_PP2_WOTM/)
 
