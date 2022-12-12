@@ -134,14 +134,14 @@ Quiz colors change after choosing an answer:
 <details>
     <summary>Colors contrasts</summary>
     
-![Color scheme](docs/features/colors/colors-black-orange.png)
-![Color scheme](docs/features/colors/colors-black-light-orange.png)
-![Color scheme](docs/features/colors/colors-black-hover-orange.png)
-![Color scheme](docs/features/colors/colors-correct.png)
-![Color scheme](docs/features/colors/colors-wrong.png)
-![Color scheme](docs/features/colors/colors-blue-orange.png)
-![Color scheme](docs/features/colors/colors-blue-light-orange.png)
-![Color scheme](docs/features/colors/colors-blue-hover-orange.png)
+![Color scheme](docs/colors/colors-black-orange.png)
+![Color scheme](docs/colors/colors-black-light-orange.png)
+![Color scheme](docs/colors/colors-black-hover-orange.png)
+![Color scheme](docs/colors/colors-correct.png)
+![Color scheme](docs/colors/colors-wrong.png)
+![Color scheme](docs/colors/colors-blue-orange.png)
+![Color scheme](docs/colors/colors-blue-light-orange.png)
+![Color scheme](docs/colors/colors-blue-hover-orange.png)
 </details>
 
 [Back to Table Of Contents](#table-of-contents)
@@ -165,15 +165,24 @@ The website consists of two pages:
 ## Wireframes
 <details>
     <summary>Home</summary>
-    
+    <img src="docs/wireframes/wireframes-home-desktop.png">
+    <img src="docs/wireframes/wireframes-home-tablet.png">
+    <img src="docs/wireframes/wireframes-home-mobile.png">
+    <img src="docs/wireframes/wireframes-dish-quiz-desktop.png">
+    <img src="docs/wireframes/wireframes-dish-quiz-tablet.png">
+    <img src="docs/wireframes/wireframes-dish-quiz-mobile.png">    
 </details>
 <details>
     <summary>Contact</summary>
-    
+    <img src="docs/wireframes/wireframes-contact-desktop.png">
+    <img src="docs/wireframes/wireframes-contact-tablet.png">
+    <img src="docs/wireframes/wireframes-contact-mobile.png">
 </details>
 <details>
     <summary>404</summary>
-
+    <img src="docs/wireframes/wireframes-404-desktop.png">
+    <img src="docs/wireframes/wireframes-404-tablet.png">
+    <img src="docs/wireframes/wireframes-404-mobile.png">
 </details>
 
 [Back to Table Of Contents](#table-of-contents)
