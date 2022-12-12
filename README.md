@@ -66,6 +66,12 @@
 - Users who would like to ask questions and provide feedback after using the website.
 
 ### User Requirements and Expectations
+- Accessible and responsive website.
+- Intuitive website with a layout allowing to easily navigate through it.
+- Easy access to useful information.
+- Links and features that function in accordance with their intended purpose. 
+- Connection with the community on the social media platforms.
+- A contact form to contact the website owner. 
 
 [Back to Table Of Contents](#table-of-contents)
 
