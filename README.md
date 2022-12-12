@@ -114,13 +114,17 @@ As the owner I want to:
 ## Design
 
 ### Design Choices 
+The main design choice was to create a simple website to help people answer the question: "What to eat today?". Inspire them to search for different variations of the recipes for the dishes that they might already eaten/ cooked. 
+The logo is a simply fork and knife to inform the user that the website is food related.
+The name: "what'sOnTheMenu" - is to present to the user to expect that the website is a contemporary place where they can built their own everyday food menu. 
+Buttons were designed with simple icons to be intuitive. 
 
 
 [Back to Table Of Contents](#table-of-contents)
 
 ### Color
 
-![Color scheme](docs/features/colors.jpg)
+![Color scheme](docs/features/)
 
 [Back to Table Of Contents](#table-of-contents)
 
