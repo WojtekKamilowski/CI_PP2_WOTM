@@ -52,6 +52,7 @@ h1 {
     margin: 0 auto;
 }
 
+/* logo and h1 hover */
 #logo i:hover, h1:hover {
     color: #E9BF9B;
 }
