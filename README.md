@@ -16,7 +16,7 @@
     - [User Stories](#user-stories)
 3. [Design](#design)
     - [Design Choices](#design-choices)
-    - [Color](#color)
+    - [Colors](#colors)
     - [Fonts](#fonts)
     - [Structure](#structure)
     - [Wireframes](#wireframes)
@@ -123,7 +123,7 @@ Quiz was designed to be easy to understand and bring some interesting facts abou
 
 [Back to Table Of Contents](#table-of-contents)
 
-### Color
+### Colors
 The chosen colors were: black, orange (three different tones), green, red and blue. 
 The colors were chosen to be simple and users to be familiar with the theme. 
 Colors change when user hover mouse on clickable elements of the website.
