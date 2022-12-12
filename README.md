@@ -193,7 +193,16 @@ The website consists of two pages:
 - JavaScript
 
 ## Technologies Used
-
+- GitHub
+- Gitpod
+- Balsamiq - to create the wireframes.
+- Font Awesome - to add icons.
+- favicon.io - to create the favicon.
+- Google Fonts to find and add Roboto font. 
+- TinyPNG to compress the background image.
+- HTML Color Codes to find the main orange color : #D27D2D
+- Color Meanings to find the blue color: #002366
+- WebAIM to check for contrasts and identify hex codes for other colors(tones of orange: #DDA169 & hover: #E9BF9B; green: #003300 & red: #5C0000) 
 
 [Back to Table Of Contents](#table-of-contents)
 
