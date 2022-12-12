@@ -147,12 +147,18 @@ Quiz colors change after choosing an answer:
 [Back to Table Of Contents](#table-of-contents)
 
 ### Fonts
-
+The chosen font was Roboto found on Google Fonts and _Sans-serif_ was chosen as the fallback font.
 
 [Back to Table Of Contents](#table-of-contents)
 
 ### Structure
+The content of the website is placed in the center.
+The logo and the name of the website is placed on the top, the main container in the middle and the footer placed on the bottom.
+There are four icons in the footer: three with links to social media platforms and envelope linking to the contact page of the website.
 
+The website consists of two pages:
+- Home: the main container in the middle displays meals to be selected and dish lottery with the quiz after a meal was selected.
+- Contact: the main container displays a contact form that changes after the submission.
 
 [Back to Table Of Contents](#table-of-contents)
 
