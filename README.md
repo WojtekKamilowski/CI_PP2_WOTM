@@ -39,7 +39,11 @@
 ## Project Goals
 
 ### User Goals
-
+- Find an idea what to eat for the chosen meal (breakfast/lunch/dinner/dessert).
+- Easily run the dish lottery again in case the first drawn dish does not match the user's expectations.
+- Look for recipes in case the user would like but does not know how to prepare / what is the drawn dish.
+- Easily navigation throught the website.
+- Entertainment with the quiz.
 
 ### Business Owner Goals
 
