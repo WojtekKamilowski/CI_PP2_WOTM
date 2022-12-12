@@ -81,14 +81,33 @@
 
 As a first time user I want to:
 
+1. Choose for which meal the dish is to be drawn. 
+2. Easily run the lottery again if the first draw is not satisfactory.
+3. Find recipes from different sources that matches my taste and/or cooking skills.
+4. Easily navigate the website.
+5. Be sure which for which meal the dish was drawn.
+6. Entartain with the quiz and check my subject related knowledge.
+7. Easily access social media plaftorms of the website.
+
 #### Returning User
 
 As a returning user I want to:
 
+8. Contact the website owner.
+9. Find an idea what to eat for other meal.
+10. Find some facts about food.
 
 #### Business Owner 
 
-As the restaurant owner I want to:
+As the owner I want to:
+
+11. Give user an idea what to eat/cook for breakfast/lunch/dinner/dessert.
+12. Allow users to reinitiate lottery.
+13. Provide users with various options of the recipe for the drawn dish.
+14. Allow users to easily navigate the website.
+15. Entertain the users with the quiz to maxime the time they spent on the website.
+16. Link users with our social media pages.
+17. Provide users with a feature to contact us.
 
 [Back to Table Of Contents](#table-of-contents)
 
