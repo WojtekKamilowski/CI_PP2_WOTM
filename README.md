@@ -59,7 +59,11 @@
 ## User Experience
 
 ### Target Audience
-
+- People who like to eat and cook and looking for an inspiration.
+- Users who would like to search more about food recipes and would like to have an idea for what dish they will search for.
+- Users who might need some time to think if the drawn dish is a good idea for them, in the meantime entertain with the quiz.
+- People who would like to network with other users with similar interests thorugh social media platforms.
+- Users who would like to ask questions and provide feedback after using the website.
 
 ### User Requirements and Expectations
 
