@@ -299,16 +299,20 @@ To validate style.css the W3C Jigsaw CSS Validation Service was used. There were
 Accessibility was tested using WAVE - Web Accessibility Evaluation Tool. All of the pages have no errors.
 
 ### Home
-![Accessibility Validation Home](docs/validation/)
+![Accessibility Validation Home](docs/validation/validation-accessibility-home.png)
 
 ### Dish
-![Accessibility Validation Dish](docs/validation/)
+![Accessibility Validation Dish](docs/validation/validation-accessibility-dish.png)
 
 ### Contact
-![Accessibility Validation Contact](docs/validation/)
+![Accessibility Validation Contact](docs/validation/validation-accessibility-contact.png)
 
 ### 404
-![Accessibility Validation 404](docs/validation/)
+![Accessibility Validation 404](docs/validation/validation-accessibility-404.png)
+
+### Color contrasts
+
+[Color contrasts](#colors)
 
 [Back to Table Of Contents](#table-of-contents)
 
@@ -318,33 +322,33 @@ The tool used to test the performance of the website was Google Lighthouse from 
 ### Home
 
 #### Desktop
-![Performance Home Desktop](docs/validation/)
+![Performance Home Desktop](docs/validation/validation-performance-desktop-index.html.png)
 
 #### Mobile
-![Performance Home Mobile](docs/validation/)
+![Performance Home Mobile](docs/validation/validation-performance-mobile-index.html.png)
 
 ### Contact
 
 #### Desktop
-![Performance Menu Desktop](docs/validation/)
+![Performance Menu Desktop](docs/validation/validation-performance-desktop-contact.html.png)
 
 #### Mobile
-![Performance Menu Mobile](docs/validation/)
+![Performance Menu Mobile](docs/validation/validation-performance-mobile-contact.html.png)
 
 ### 404
 
 #### Desktop
-![Performance 404 Desktop](docs/validation/)
+![Performance 404 Desktop](docs/validation/validation-performance-desktop-404.html.png)
 
 #### Mobile
-![Performance 404 Mobile](docs/validation/)
+![Performance 404 Mobile](docs/validation/docs/validation/validation-performance-mobile-404.html.png)
 
 [Back to Table Of Contents](#table-of-contents)
 
 ## Device testing
 List of devices used to test the website:
 - HP Pavilion 14 
-- Acer Nitro 5 with and without an external monitor (HP V22)
+- Acer Nitro 5 without and with an external monitor (HP V22)
 - Sony Xperia L2
 - Motorola Moto G20
 
