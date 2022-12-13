@@ -26,6 +26,7 @@
 7. [Validation](#validation)
     - [HTML Validation](#HTML-validation)
     - [CSS Validation](#CSS-validation)
+    - [JavaScript Validation](#javascript-validation)
     - [Accessibility](#accessibility)
     - [Performance](#performance)
     - [Device testing](#device-testing)
