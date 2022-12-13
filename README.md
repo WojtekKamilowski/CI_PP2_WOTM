@@ -287,7 +287,7 @@ There is one warning about the type attribute for the code that was taken from E
 ![HTML Validation Contact](docs/validation/validation-html-contact.html.png)
 
 #### 404
-![HTML Validation 404](docs/validation-html-404.html.png)
+![HTML Validation 404](docs/validation/validation-html-404.html.png)
 
 ### CSS Validation
 To validate style.css the W3C Jigsaw CSS Validation Service was used. There were no errors found.
@@ -300,15 +300,17 @@ To validate style.css the W3C Jigsaw CSS Validation Service was used. There were
 JSHint JS Validation Serviced was used to validate the Javascript code for the website with no errors found.
 
 #### dish-lottery-quiz.js
-Five unused variables are 
+The message about five undefined variables are defined on settings.js to keep files organised and facilitate updating arrays with dishes and quiz questions.
 
 ![JavaScript Validation](docs/validation/validation-js-dish-lottery-quiz.js.png)
 
 #### settings.js
+The message about five unused variables relate to the similar message for dish-lottery-quiz.js
 
 ![JavaScript Validation](docs/validation/validation-js-settings.js.png)
 
 #### contact-form.js
+There is a message relating the emailjs variable that was included in the emailjs tutorial: https://www.emailjs.com/docs/tutorial/creating-contact-form/ 
 
 ![JavaScript Validation](docs/validation/validation-js-contact-form.js.png)
 
@@ -358,7 +360,7 @@ The tool used to test the performance of the website was Google Lighthouse from 
 ![Performance 404 Desktop](docs/validation/validation-performance-desktop-404.html.png)
 
 #### Mobile
-![Performance 404 Mobile](docs/validation/docs/validation/validation-performance-mobile-404.html.png)
+![Performance 404 Mobile](docs/validation/validation-performance-mobile-404.html.png)
 
 [Back to Table Of Contents](#table-of-contents)
 
@@ -387,8 +389,8 @@ Following browsers were used to test the website:
 | ------- | ------- | --------------- | ------------- |
 | Meal selection buttons | From the main container in the middle of the home page select one of the meal buttons | Draws a random dish for the selected meal | Works as expected |
 
-![Testing user story 1](docs/user-story-testing/user-story-1-a.jpg)
-![Testing user story 1](docs/user-story-testing/user-story-1-b.jpg)
+![Testing user story 1](docs/user-story-testing/user-story-1-a.png)
+![Testing user story 1](docs/user-story-testing/user-story-1-b.png)
 
 [Back to Table Of Contents](#table-of-contents)
 
@@ -398,7 +400,7 @@ Following browsers were used to test the website:
 | ------- | ------- | --------------- | ------------- |
 | Dish lottery | After accessing the dish lottery screen by clicking on the chosen meal, click on the box "Maybe...something different"  | Draws a random dish again | Works as expected |
 
-![Testing user story 2](docs/user-story-testing/user-story-2.jpg)
+![Testing user story 2](docs/user-story-testing/user-story-2.png)
 
 [Back to Table Of Contents](#table-of-contents)
 
@@ -408,7 +410,7 @@ Following browsers were used to test the website:
 | ------- | ------- | --------------- | ------------- |
 | Dish lottery | After accessing the dish lottery screen by clicking on the chosen meal, click on the box "I like it! Let's look for a recipe"  | Opens google.com with search results: recipe+for+${dishName} | Works as expected |
 
-![Testing user story 3](docs/user-story-testing/user-story-3.jpg)
+![Testing user story 3](docs/user-story-testing/user-story-3.png)
 
 [Back to Table Of Contents](#table-of-contents)
 
@@ -424,8 +426,8 @@ Following browsers were used to test the website:
 | Contact form | Click on box "Return to the main menu" | Brings the user to the home page | Works as expected |
 
 
-![Testing user story 4](docs/user-story-testing/user-story-4-a.jpg)
-![Testing user story 4](docs/user-story-testing/user-story-4-b.jpg)
+![Testing user story 4](docs/user-story-testing/user-story-4-a.png)
+![Testing user story 4](docs/user-story-testing/user-story-4-b.png)
 
 [Back to Table Of Contents](#table-of-contents)
 
@@ -435,7 +437,7 @@ Following browsers were used to test the website:
 | ------- | ------- | --------------- | ------------- |
 | Dish lottery | After accessing the dish lottery screen appears a message on the top: "Today for ${mealType} let's eat:" | User will see name of the meal that was selected from meal selection buttons | Works as expected |
 
-![Testing user story 5](docs/user-story-testing/user-story-5.jpg)
+![Testing user story 5](docs/user-story-testing/user-story-5.png)
 
 [Back to Table Of Contents](#table-of-contents)
 
@@ -446,11 +448,48 @@ Following browsers were used to test the website:
 | ------- | ------- | --------------- | ------------- |
 |  Quiz | After accessing the dish lottery screen scroll down to see the quiz and select one of the answers | After selecting an answer the background color changes to green if the answer was correct of to red if it was wrong, the wrong answers background color changes to red and to green for the correct one | Works as expected |
 
-![Testing user story 6](docs/user-story-testing/user-story-6-a.jpg)
-![Testing user story 6](docs/user-story-testing/user-story-6-b.jpg)
-![Testing user story 6](docs/user-story-testing/user-story-6-c.jpg)
+![Testing user story 6](docs/user-story-testing/user-story-6-a.png)
+![Testing user story 6](docs/user-story-testing/user-story-6-b.png)
+![Testing user story 6](docs/user-story-testing/user-story-6-c.png)
 
 [Back to Table Of Contents](#table-of-contents)
+
+7. As a first time user I want to easily access social media plaftorms of the website.
+
+| Feature | Action  | Expected Result | Actual Result |
+| ------- | ------- | --------------- | ------------- |
+| Footer  | Click on any of the social media icons to open in a new tab | Brings the user to the clicked social media platform | Works as expected |
+
+![Testing user story 7](docs/user-story-testing/user-story-7.png)
+
+[Back to Table Of Contents](#table-of-contents)
+
+8. As a returning user I want to contact the website owner.
+
+| Feature | Action  | Expected Result | Actual Result |
+| ------- | ------- | --------------- | ------------- |
+| Footer  | Click on the envelope icon to move to the contact page | Brings the user to the contact page with the contact form | Works as expected |
+| Contact form | Access the contact page by clicking the envelope icon in the footer fill out the form and click send | Informs if there is a missing required input, inform that the form is being sent and displays a thank you message if the form was sent correctly | Works as expected |
+
+![Testing user story 8](docs/user-story-testing/user-story-8-a.png)
+![Testing user story 8](docs/user-story-testing/user-story-8-b.png)
+
+[Back to Table Of Contents](#table-of-contents)
+
+9. As a returning user I want to find an idea what to eat for other meal.
+
+| Feature | Action  | Expected Result | Actual Result |
+| ------- | ------- | --------------- | ------------- |
+|  Logo and website name | Click on the logo or website name | Brings the user to the home page with meal selection buttons feature in the middle | Works as expected |
+| Meal selection buttons | From the main container in the middle of the home page select one of the meal buttons | The dish lottery screen appears | Works as expected |
+| Dish lottery | After accessing the dish lottery screen by clicking on the chosen meal, click on the box "Return to the main menu" | Brings the user to the home page with meal selection buttons feature in the middle | Works as expected |
+
+
+
+
+| Feature | Action  | Expected Result | Actual Result |
+| ------- | ------- | --------------- | ------------- |
+|  | |  | Works as expected |
 
 ## Bugs
 | Bug  | Fix  |
