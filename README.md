@@ -379,10 +379,21 @@ Following browsers were used to test the website:
 
 | Feature | Action  | Expected Result | Actual Result |
 | ------- | ------- | --------------- | ------------- |
-| Dish lottery |  |  |
+| Dish lottery | After accessing the dish lottery screen by clicking on the chosen meal, click on the box "Maybe...something different"  | Draws a random dish again | Works as expected |
+
+![Testing user story 2](docs/user-story-testing/user-story-2.jpg)
 
 [Back to Table Of Contents](#table-of-contents)
 
+3. Find recipes from different sources that matches my taste and/or cooking skills.
+
+| Feature | Action  | Expected Result | Actual Result |
+| ------- | ------- | --------------- | ------------- |
+| Dish lottery | After accessing the dish lottery screen by clicking on the chosen meal, click on the box "I like it! Let's look for a recipe"  | Opens google.com with search results: recipe+for+${dishName} | Works as expected |
+
+![Testing user story 3](docs/user-story-testing/user-story-3.jpg)
+
+[Back to Table Of Contents](#table-of-contents)
 
 
 
