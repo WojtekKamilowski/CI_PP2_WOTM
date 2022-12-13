@@ -375,6 +375,22 @@ Following browsers were used to test the website:
 
 [Back to Table Of Contents](#table-of-contents)
 
+2. Easily run the lottery again if the first draw is not satisfactory.
+
+| Feature | Action  | Expected Result | Actual Result |
+| ------- | ------- | --------------- | ------------- |
+| Dish lottery |  |  |
+
+[Back to Table Of Contents](#table-of-contents)
+
+
+
+
+
+
+| Feature | Action  | Expected Result | Actual Result |
+| ------- | ------- | --------------- | ------------- |
+|   |  |  |
 
 ## Bugs
 | Bug  | Fix  |
