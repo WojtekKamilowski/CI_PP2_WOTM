@@ -484,12 +484,98 @@ Following browsers were used to test the website:
 | Meal selection buttons | From the main container in the middle of the home page select one of the meal buttons | The dish lottery screen appears | Works as expected |
 | Dish lottery | After accessing the dish lottery screen by clicking on the chosen meal, click on the box "Return to the main menu" | Brings the user to the home page with meal selection buttons feature in the middle | Works as expected |
 
+![Testing user story 9](docs/user-story-testing/user-story-9.png)
 
+[Back to Table Of Contents](#table-of-contents)
 
+10. As a returning user I want to find some facts about food.
 
 | Feature | Action  | Expected Result | Actual Result |
 | ------- | ------- | --------------- | ------------- |
-|  | |  | Works as expected |
+|  Quiz | After accessing the dish lottery screen scroll down to see the quiz and select one of the answers, click "Ask me again!" to try again | After selecting an answer the background color changes to green if the answer was correct of to red if it was wrong, the wrong answers background color changes to red and to green for the correct one, after clicking "Ask me again!" quiz restarts and draws a random question again | Works as expected |
+
+![Testing user story 10](docs/user-story-testing/user-story-10.png)
+
+[Back to Table Of Contents](#table-of-contents)
+
+11. As the owner I want to give user an idea what to eat/cook for breakfast/lunch/dinner/dessert.
+
+| Feature | Action  | Expected Result | Actual Result |
+| ------- | ------- | --------------- | ------------- |
+| Meal selection buttons | From the main container in the middle of the home page select one of the meal buttons | The dish lottery screen appears | Works as expected |
+| Dish lottery | After accessing the dish lottery screen by clicking on the chosen meal, click on the box "I like it! Let's look for a recipe"  | Opens google.com with search results: recipe+for+${dishName} | Works as expected |
+
+![Testing user story 11](docs/user-story-testing/user-story-11.png)
+
+[Back to Table Of Contents](#table-of-contents)
+
+12. As the owner I want to allow users to reinitiate lottery.
+
+| Feature | Action  | Expected Result | Actual Result |
+| ------- | ------- | --------------- | ------------- |
+| Dish lottery | After accessing the dish lottery screen by clicking on the chosen meal, click on the box "Maybe...something different"  | Draws a random dish again | Works as expected |
+
+![Testing user story 12](docs/user-story-testing/user-story-12.png)
+
+[Back to Table Of Contents](#table-of-contents)
+
+13. As the owner I want to provide users with various options of the recipe for the drawn dish.
+
+| Feature | Action  | Expected Result | Actual Result |
+| ------- | ------- | --------------- | ------------- |
+| Meal selection buttons | From the main container in the middle of the home page select one of the meal buttons | The dish lottery screen appears | Works as expected |
+| Dish lottery | After accessing the dish lottery screen by clicking on the chosen meal, click on the box "I like it! Let's look for a recipe"  | Opens google.com with search results: recipe+for+${dishName} | Works as expected |
+
+![Testing user story 13](docs/user-story-testing/user-story-13.png)
+
+[Back to Table Of Contents](#table-of-contents)
+
+14. As the owner I want to allow users to easily navigate the website.
+
+| Feature | Action  | Expected Result | Actual Result |
+| ------- | ------- | --------------- | ------------- |
+|  Logo and website name | Click on the logo or website name | Brings the user to the home page | Works as expected |
+| Meal selection buttons | From the main container in the middle of the home page select one of the meal buttons | Draws a random dish for the selected meal | Works as expected |
+| Footer  | Click on the envelope icon to move to the contact page | Brings the user to the contact page with the contact form | Works as expected |
+| Meal selection buttons | From the main container in the middle of the home page select one of the meal buttons | The dish lottery screen appears | Works as expected |
+| Dish lottery | After accessing the dish lottery screen by clicking on the chosen meal, click on the box "Return to the main menu" | Brings the user to the home page | Works as expected |
+| Contact form | Click on box "Return to the main menu" | Brings the user to the home page | Works as expected |
+
+![Testing user story 14](docs/user-story-testing/user-story-14.png)
+
+[Back to Table Of Contents](#table-of-contents)
+
+15. As the owner I want to entertain the users with the quiz to extend the time they spent on the website.
+
+| Feature | Action  | Expected Result | Actual Result |
+| ------- | ------- | --------------- | ------------- |
+|  Quiz | After accessing the dish lottery screen scroll down to see the quiz and select one of the answers | After selecting an answer the background color changes to green if the answer was correct of to red if it was wrong, the wrong answers background color changes to red and to green for the correct one | Works as expected |
+|  Quiz | After accessing the dish lottery screen scroll down to see the quiz and select one of the answers, click "Ask me again!" to try again | After selecting an answer the background color changes to green if the answer was correct of to red if it was wrong, the wrong answers background color changes to red and to green for the correct one, after clicking "Ask me again!" quiz restarts and draws a random question again | Works as expected |
+
+![Testing user story 15](docs/user-story-testing/user-story-15.png)
+
+[Back to Table Of Contents](#table-of-contents)
+
+16. As the owner I want to link users with our social media pages.
+
+| Feature | Action  | Expected Result | Actual Result |
+| ------- | ------- | --------------- | ------------- |
+| Footer  | Click on any of the social media icons to open in a new tab | Brings the user to the clicked social media platform | Works as expected |
+
+![Testing user story 16](docs/user-story-testing/user-story-16.png)
+
+[Back to Table Of Contents](#table-of-contents)
+
+17. As the owner I want to provide users with a feature to contact us.
+
+| Feature | Action  | Expected Result | Actual Result |
+| ------- | ------- | --------------- | ------------- |
+| Footer  | Click on the envelope icon to move to the contact page | Brings the user to the contact page with the contact form | Works as expected |
+| Contact form | Access the contact page by clicking the envelope icon in the footer fill out the form and click send | Informs if there is a missing required input, inform that the form is being sent and displays a thank you message if the form was sent correctly | Works as expected |
+
+![Testing user story 17](docs/user-story-testing/user-story-17.png)
+
+[Back to Table Of Contents](#table-of-contents)
 
 ## Bugs
 | Bug  | Fix  |
