@@ -86,7 +86,7 @@ As a first time user I want to:
 3. Find recipes from different sources that matches my taste and/or cooking skills.
 4. Easily navigate the website.
 5. Be sure which for which meal the dish was drawn.
-6. Entertain with the quiz and check my subject related knowledge.
+6. Be entertained with the quiz and check my subject related knowledge.
 7. Easily access social media plaftorms of the website.
 
 #### Returning User
@@ -225,7 +225,7 @@ On the website there are two pages.
     Appears on two pages and 404.<br>
     Contains social media and envelope icons.<br> 
     The icons change color when users hover the mouse over them to indicate they can be clicked.<br>
-    It is responsive icons move closer to each other, they reduce size for very small screens.
+    It is responsive icons move closer to each other, they reduce size for very small screens.<br>
     User stories covered: 4, 7, 8, 13, 14, 16, 17.
     <img src="docs/features/features-footer.png">  
 </details>
@@ -364,7 +364,7 @@ Following browsers were used to test the website:
 
 ## Testing user stories 
 
-1. Choose for which meal the dish is to be drawn.
+1. As a first time user I want to choose for which meal the dish is to be drawn.
 
 | Feature | Action  | Expected Result | Actual Result |
 | ------- | ------- | --------------- | ------------- |
@@ -375,7 +375,7 @@ Following browsers were used to test the website:
 
 [Back to Table Of Contents](#table-of-contents)
 
-2. Easily run the lottery again if the first draw is not satisfactory.
+2. As a first time user I want to easily run the lottery again if the first draw is not satisfactory.
 
 | Feature | Action  | Expected Result | Actual Result |
 | ------- | ------- | --------------- | ------------- |
@@ -385,7 +385,7 @@ Following browsers were used to test the website:
 
 [Back to Table Of Contents](#table-of-contents)
 
-3. Find recipes from different sources that matches my taste and/or cooking skills.
+3. As a first time user I want to find recipes from different sources that matches my taste and/or cooking skills.
 
 | Feature | Action  | Expected Result | Actual Result |
 | ------- | ------- | --------------- | ------------- |
@@ -395,13 +395,45 @@ Following browsers were used to test the website:
 
 [Back to Table Of Contents](#table-of-contents)
 
+4. As a first time user I want to easily navigate the website.
+
+| Feature | Action  | Expected Result | Actual Result |
+| ------- | ------- | --------------- | ------------- |
+|  Logo and website name | Click on the logo or website name | Brings the user to the home page | Works as expected |
+| Meal selection buttons | From the main container in the middle of the home page select one of the meal buttons | Draws a random dish for the selected meal | Works as expected |
+| Footer  | Click on the envelope icon to move to the contact page | Brings the user to the contact page with the contact form | Works as expected |
+| Meal selection buttons | From the main container in the middle of the home page select one of the meal buttons | The dish lottery screen appears | Works as expected |
+| Dish lottery | After accessing the dish lottery screen by clicking on the chosen meal, click on the box "Return to the main menu" | Brings the user to the home page | Works as expected |
+| Contact form | Click on box "Return to the main menu" | Brings the user to the home page | Works as expected |
 
 
+![Testing user story 4](docs/user-story-testing/user-story-4-a.jpg)
+![Testing user story 4](docs/user-story-testing/user-story-4-b.jpg)
+
+[Back to Table Of Contents](#table-of-contents)
+
+5. As a first time user I want to be sure which for which meal the dish was drawn.
+
+| Feature | Action  | Expected Result | Actual Result |
+| ------- | ------- | --------------- | ------------- |
+| Dish lottery | After accessing the dish lottery screen appears a message on the top: "Today for ${mealType} let's eat:" | User will see name of the meal that was selected from meal selection buttons | Works as expected |
+
+![Testing user story 5](docs/user-story-testing/user-story-5.jpg)
+
+[Back to Table Of Contents](#table-of-contents)
+
+6. As a first time user I want to be entertained with the quiz and check my subject related knowledge.
 
 
 | Feature | Action  | Expected Result | Actual Result |
 | ------- | ------- | --------------- | ------------- |
-|   |  |  |
+|  Quiz | After accessing the dish lottery screen scroll down to see the quiz and select one of the answers | After selecting an answer the background color changes to green if the answer was correct of to red if it was wrong, the wrong answers background color changes to red and to green for the correct one | Works as expected |
+
+![Testing user story 6](docs/user-story-testing/user-story-6-a.jpg)
+![Testing user story 6](docs/user-story-testing/user-story-6-b.jpg)
+![Testing user story 6](docs/user-story-testing/user-story-6-c.jpg)
+
+[Back to Table Of Contents](#table-of-contents)
 
 ## Bugs
 | Bug  | Fix  |
