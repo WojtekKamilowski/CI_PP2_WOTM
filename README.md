@@ -295,6 +295,21 @@ To validate style.css the W3C Jigsaw CSS Validation Service was used. There were
 
 [Back to Table Of Contents](#table-of-contents)
 
+### JavaScript Validation
+JSHint JS Validation Serviced was used to validate the Javascript code for the website with no errors found.
+
+#### dish-lottery-quiz.js
+
+![CSS Validation](docs/validation/validation-js-dish-lottery-form.js.png)
+
+#### settings.js
+
+![CSS Validation](docs/validation/validation-js-settings.js.png)
+
+#### contact-form.js
+
+![CSS Validation](docs/validation/validation-js-contact-form.js.png)
+
 ## Accessibility
 Accessibility was tested using WAVE - Web Accessibility Evaluation Tool. All of the pages have no errors.
 
