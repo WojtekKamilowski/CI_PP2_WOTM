@@ -291,7 +291,7 @@ There is one warning about the type attribute for the code that was taken from E
 ### CSS Validation
 To validate style.css the W3C Jigsaw CSS Validation Service was used. There were no errors found.
 
-![CSS Validation](docs/validation/)
+![CSS Validation](docs/validation/validation-css.png)
 
 [Back to Table Of Contents](#table-of-contents)
 
@@ -301,11 +301,8 @@ Accessibility was tested using WAVE - Web Accessibility Evaluation Tool. All of 
 ### Home
 ![Accessibility Validation Home](docs/validation/)
 
-### Menu
-![Accessibility Validation Menu](docs/validation/)
-
-### About us
-![Accessibility Validation About us](docs/validation/)
+### Dish
+![Accessibility Validation Dish](docs/validation/)
 
 ### Contact
 ![Accessibility Validation Contact](docs/validation/)
