@@ -230,12 +230,24 @@ On the website there are two pages.
     <img src="docs/features/features-footer.png">  
 </details>
 <details>   
-    <summary>Meals</summary>     
-   
+    <summary>Meal selection buttons</summary>
+    Placed in the center of the home page.<br> 
+    Constists of four meal buttons: brakfast, lunch, dinner & dessert. Clicking on them inititiate dish lottery screen with drwan dish and a quiz question.<br> 
+    The icons change color when users hover the mouse over them to indicate they can be clicked.<br>
+    The feature is responsive.<br>
+    User stories covered: 1, 4, 9, 11, 14.
+    <img src="docs/features/features-meal-selection-buttons.png">   
 </details>
 <details>
     <summary>Dish Lottery</summary>
-    
+    Appears when the user selects one of the meals for which a dish is to be drawn.<br> 
+    It informs which meal the user chose and displays a random dish drawn from the relevant array.<br> 
+    There is a different dish button that allows the user to reinitiate the lottery without need of refreshing the page.<br> 
+    Below different dish button there is a recipe link allows user to search for recipes for the drawn dish.<br> 
+    Return to the main menu button allows the user to easily navigate to the meal selection buttons.<br> 
+    The feature is responsive.<br>
+    User stories covered: 
+
 </details>
 <details>
     <summary>Quiz</summary> 

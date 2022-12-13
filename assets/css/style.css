@@ -159,6 +159,11 @@ body {
     padding: 0.5vh 1vw;
 }
 
+/* word-break from https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Text/Wrapping_Text */
+#different-dish {
+    word-break: break-all;
+}
+
 #quiz-question {
     font-weight: bold;
     text-align: center;
