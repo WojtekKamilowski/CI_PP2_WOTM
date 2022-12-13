@@ -364,13 +364,14 @@ Following browsers were used to test the website:
 
 ## Testing user stories 
 
-1. As a first time user I want to know if there is some disruption to the usual opening times or other very important information:
+1. Choose for which meal the dish is to be drawn.
 
 | Feature | Action  | Expected Result | Actual Result |
 | ------- | ------- | --------------- | ------------- |
-|  |  |  |  |
+| Meal selection buttons | From the main container in the middle of the home page select one of the meal buttons | Draws a random dish for the selected meal | Works as expected |
 
-![Testing user story 1](docs/user-story-testing/user-story-1.jpg)
+![Testing user story 1](docs/user-story-testing/user-story-1-a.jpg)
+![Testing user story 1](docs/user-story-testing/user-story-1-b.jpg)
 
 [Back to Table Of Contents](#table-of-contents)
 
