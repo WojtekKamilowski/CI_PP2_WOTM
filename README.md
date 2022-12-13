@@ -262,7 +262,13 @@ On the website there are two pages.
 </details>
 <details>
     <summary>Contact form</summary>
-   
+    Placed in the middle of the contact page which the user can access by clicking the envelope icon in the footer.<br> 
+    It requires from the user to fill out all fields before submitting the form.<br> 
+    Once the user presses the submit it changes its value to "Sending..." and when it is sent the form restarts, displays a thank you message for the user, and a box with the link to reload the contact page appears.<br>
+    The feature is responsive.<br>
+    User stories covered: 4, 8, 14, 17.
+    <img src="docs/features/features-contact-form.png"> 
+    <img src="docs/features/features-contact-form-sent.png">    
 </details>
 
 [Back to Table Of Contents](#table-of-contents)
@@ -273,19 +279,14 @@ On the website there are two pages.
 To validate HTML of the website the W3C Markup Validation Service was used. The results have no errors.
 
 #### Home
-![HTML Validation Home](docs/validation/)
-
-#### Menu
-![HTML Validation Menu](docs/validation/)
-
-#### About us
-![HTML Validation About us](docs/validation/)
+![HTML Validation Home](docs/validation/validation-html-index.html.png)
 
 #### Contact
-![HTML Validation Contact](docs/validation/)
+There is one warning about the type attribute for the code that was taken from Email JS: https://www.emailjs.com/docs/tutorial/creating-contact-form/ 
+![HTML Validation Contact](docs/validation/validation-html-contact.html.png)
 
 #### 404
-![HTML Validation 404](docs/)
+![HTML Validation 404](docs/validation-html-404.html.png)
 
 ### CSS Validation
 To validate style.css the W3C Jigsaw CSS Validation Service was used. There were no errors found.
