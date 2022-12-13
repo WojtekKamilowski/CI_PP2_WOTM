@@ -302,7 +302,7 @@ JSHint JS Validation Serviced was used to validate the Javascript code for the w
 #### dish-lottery-quiz.js
 Five unused variables are 
 
-![JavaScript Validation](docs/validation/validation-js-dish-lottery-form.js.png)
+![JavaScript Validation](docs/validation/validation-js-dish-lottery-quiz.js.png)
 
 #### settings.js
 
