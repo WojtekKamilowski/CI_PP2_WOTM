@@ -86,7 +86,7 @@ As a first time user I want to:
 3. Find recipes from different sources that matches my taste and/or cooking skills.
 4. Easily navigate the website.
 5. Be sure which for which meal the dish was drawn.
-6. Entartain with the quiz and check my subject related knowledge.
+6. Entertain with the quiz and check my subject related knowledge.
 7. Easily access social media plaftorms of the website.
 
 #### Returning User
@@ -105,7 +105,7 @@ As the owner I want to:
 12. Allow users to reinitiate lottery.
 13. Provide users with various options of the recipe for the drawn dish.
 14. Allow users to easily navigate the website.
-15. Entertain the users with the quiz to maximise the time they spent on the website.
+15. Entertain the users with the quiz to extend the time they spent on the website.
 16. Link users with our social media pages.
 17. Provide users with a feature to contact us.
 
@@ -239,19 +239,26 @@ On the website there are two pages.
     <img src="docs/features/features-meal-selection-buttons.png">   
 </details>
 <details>
-    <summary>Dish Lottery</summary>
+    <summary>Dish lottery</summary>
     Appears when the user selects one of the meals for which a dish is to be drawn.<br> 
     It informs which meal the user chose and displays a random dish drawn from the relevant array.<br> 
     There is a different dish button that allows the user to reinitiate the lottery without need of refreshing the page.<br> 
     Below different dish button there is a recipe link allows user to search for recipes for the drawn dish.<br> 
     Return to the main menu button allows the user to easily navigate to the meal selection buttons.<br> 
-    The feature is responsive.<br>
-    User stories covered: 
-
+    The feature is responsive, different dish button breaks the words to ensure the content fits inside on very small screens.<br>
+    User stories covered: 2, 3, 4, 5, 9, 11, 12, 13.
+    <img src="docs/features/features-dish-lottery.png"> 
 </details>
 <details>
     <summary>Quiz</summary> 
-    
+    Appears when the user selects one of the meals for which a dish is to be drawn below the dish lottery.<br> 
+    It asks the user a random food related question with a few possible answers from which only one of them is correct.<br> 
+    When the user chooses an answer then correct answer button changes the background-color to green and wrong answer buttons' background-color changes to red.<br> 
+    The background-color of the quiz changes to green if the user chooses the correct answer and to red if the user chooses one of the wrong answers.<br> 
+    There is "Ask me again!" button that restarts the quiz and draws a random question once again.<br> 
+    The feature is responsive.<br>
+    User stories covered: 6, 10, 15.
+    <img src="docs/features/features-quiz.png">    
 </details>
 <details>
     <summary>Contact form</summary>
