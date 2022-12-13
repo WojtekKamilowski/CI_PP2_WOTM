@@ -580,7 +580,10 @@ Following browsers were used to test the website:
 ## Bugs
 | Bug  | Fix  |
 | ------- | ------- |
-|  |  |
+| Background image was not appearing behind the dish lottery after clicking on a meal button | Change css position propery to "fixed" |
+| Low color contrast | Find tones of the chosen colors with a better contrast using WebAim Contrast Checker |
+| The contact form was not restarting after the submission | Add .reset() function to emailjs.sendForm("service_bb9gt6r", "wotm-contact-form", this) .then(() => { |
+| Quiz question does not appear | Add if statement: if (randomQuestions.length > currentQuestionIndex + 1) for the quiz code |
 
 [Back to Table Of Contents](#table-of-contents)
 
@@ -608,6 +611,8 @@ To clone the GitHub repository you should:
 ## Credits 
 
 ### Media
+
+
 
 ### Code
 
