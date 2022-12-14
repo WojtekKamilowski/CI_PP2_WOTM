@@ -615,7 +615,8 @@ To clone the GitHub repository you should:
 - <a href="assets/images/favicon_io">favicon</a> generated from <a href="https://favicon.io/favicon-generator/">Favicon.io</a>
 - All icons were found on <a href="https://fontawesome.com/icons">Font Awesome</a> 
 - Orange color: #D27D2D generated from <a href="https://htmlcolorcodes.com/colors/cinnamon/">HTML Color Codes</a>
-- Other tones of orange identyfied using:<a href="https://webaim.org/resources/contrastchecker/">WebAIM Contrast Checker</a>
+- Other tones of orange, green and red identyfied using:<a href="https://webaim.org/resources/contrastchecker/">WebAIM Contrast Checker</a>
+- Blue color: #002366 <a href="https://www.color-meanings.com/colors-that-go-with-orange/">Color Meanings</a>
 
 ### Code
 - HTML and CSS was created based on knowledge from my previous project <a href="https://github.com/WojtekKamilowski/CI_PP1_CDVMR">CI_PP1_CDVMR</a> and Code Institute's walkthrough project <a href="https://github.com/Code-Institute-Solutions/love-maths-2.0-sourcecode">Love Maths</a>
