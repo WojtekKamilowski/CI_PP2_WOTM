@@ -314,6 +314,8 @@ There is a message relating the emailjs variable that was included in the emailj
 
 ![JavaScript Validation](docs/validation/validation-js-contact-form.js.png)
 
+[Back to Table Of Contents](#table-of-contents)
+
 ## Accessibility
 Accessibility was tested using WAVE - Web Accessibility Evaluation Tool. All of the pages have no errors.
 
@@ -619,7 +621,7 @@ To clone the GitHub repository you should:
 - Blue color: #002366 <a href="https://www.color-meanings.com/colors-that-go-with-orange/">Color Meanings</a>
 
 ### Code
-- HTML and CSS was created based on knowledge from my previous project <a href="https://github.com/WojtekKamilowski/CI_PP1_CDVMR">CI_PP1_CDVMR</a> and Code Institute's walkthrough project <a href="https://github.com/Code-Institute-Solutions/love-maths-2.0-sourcecode">Love Maths</a>
+- HTML and CSS was created based on the knowledge from my previous project <a href="https://github.com/WojtekKamilowski/CI_PP1_CDVMR">CI_PP1_CDVMR</a> and Code Institute's walkthrough project <a href="https://github.com/Code-Institute-Solutions/love-maths-2.0-sourcecode">Love Maths</a>
 - JavaScript was inspired by projects of <a href="https://github.com/aleksandracodes/CI_PP2_SunshineGuessing">Aleksandra Haniok</a> & <a href="https://github.com/4n4ru/CI-P2-GuessingBee">Ana Runje</a>
 - Background image CSS code from <a href="https://css-tricks.com/snippets/css/transparent-background-images/">CSS-TRICKS</a>
 - Sticky footer from <a href="https://css-tricks.com/couple-takes-sticky-footer/">CSS-TRICKS</a>
