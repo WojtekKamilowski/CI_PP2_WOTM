@@ -43,7 +43,7 @@
 - Find an idea what to eat for the chosen meal (breakfast/lunch/dinner/dessert).
 - Easily run the dish lottery again in case the first drawn dish does not match the user's expectations.
 - Look for recipes in case the user would like but does not know how to prepare / what is the drawn dish.
-- Easily navigation throught the website.
+- Easy navigation through the website.
 - Entertainment with the quiz possibly while making the decision if the user would like to eat the drawn dish.
 - Find social media of the website to find more content about food and network with other users with similar interests.
 - Ask questions or provide feedback for the website owner by using the contact form. 
@@ -51,7 +51,7 @@
 ### Business Owner Goals
 - Give users a random idea what to eat.
 - Help users to search more about the drawn dish through the search engine.
-- Entartain the user with the quiz to maximise the time spent on the website.
+- Entertain the user with the quiz to maximise the time spent on the website.
 - Allow users to easily visit social media pages of the owner. 
 - Collect feedback or answer questions from the users by using the contact form.
 
@@ -63,7 +63,7 @@
 - People who like to eat and cook and looking for an inspiration.
 - Users who would like to search more about food recipes and would like to have an idea for what dish they will search for.
 - Users who might need some time to think if the drawn dish is a good idea for them, in the meantime entertain with the quiz.
-- People who would like to network with other users with similar interests thorugh social media platforms.
+- People who would like to network with other users with similar interests using social media platforms.
 - Users who would like to ask questions and provide feedback after using the website.
 
 ### User Requirements and Expectations
@@ -88,7 +88,7 @@ As a first time user I want to:
 4. Easily navigate the website.
 5. Be sure which for which meal the dish was drawn.
 6. Be entertained with the quiz and check my subject related knowledge.
-7. Easily access social media plaftorms of the website.
+7. Easily access social media platforms of the website.
 
 #### Returning User
 
@@ -456,7 +456,7 @@ Following browsers were used to test the website:
 
 [Back to Table Of Contents](#table-of-contents)
 
-7. As a first time user I want to easily access social media plaftorms of the website.
+7. As a first time user I want to easily access social media platforms of the website.
 
 | Feature | Action  | Expected Result | Actual Result |
 | ------- | ------- | --------------- | ------------- |
@@ -582,7 +582,7 @@ Following browsers were used to test the website:
 ## Bugs
 | Bug  | Fix  |
 | ------- | ------- |
-| Background image was not appearing behind the dish lottery after clicking on a meal button | Change css position propery to "fixed" |
+| Background image was not appearing behind the dish lottery after clicking on a meal button | Change css position property to "fixed" |
 | Low color contrast | Find tones of the chosen colors with a better contrast using WebAim Contrast Checker |
 | The contact form was not restarting after the submission | Add .reset() function to emailjs.sendForm("service_bb9gt6r", "wotm-contact-form", this) .then(() => { |
 | Quiz question does not appear | Add if statement: if (randomQuestions.length > currentQuestionIndex + 1) for the quiz code |
@@ -618,7 +618,7 @@ To clone the GitHub repository you should:
 - All icons were found on <a href="https://fontawesome.com/icons">Font Awesome</a>
 - Roboto font <a href="https://fonts.google.com/?fbclid=IwAR0M5mybiiO6URy8GMzAKIYHRdX_lQHlJhwcmI6h-bNFuL90-osnCNZaC8Q">Google Fonts</a>
 - Orange color: #D27D2D generated from <a href="https://htmlcolorcodes.com/colors/cinnamon/">HTML Color Codes</a>
-- Other tones of orange, green and red identyfied using:<a href="https://webaim.org/resources/contrastchecker/">WebAIM Contrast Checker</a>
+- Other tones of orange, green and red identified using:<a href="https://webaim.org/resources/contrastchecker/">WebAIM Contrast Checker</a>
 - Blue color: #002366 <a href="https://www.color-meanings.com/colors-that-go-with-orange/">Color Meanings</a>
 
 ### Code
