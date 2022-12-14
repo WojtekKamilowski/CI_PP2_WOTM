@@ -615,7 +615,8 @@ To clone the GitHub repository you should:
 ### Media
 - <a href="assets/images/background.jpg">background</a> image "Food typography flat icon set" by <a href="https://www.freepik.com/free-vector/food-typography-flat-icon-set_8609151.htm#page=2&query=food&position=2&from_view=search&track=sph">pch.vector</a>
 - <a href="assets/images/favicon_io">favicon</a> generated from <a href="https://favicon.io/favicon-generator/">Favicon.io</a>
-- All icons were found on <a href="https://fontawesome.com/icons">Font Awesome</a> 
+- All icons were found on <a href="https://fontawesome.com/icons">Font Awesome</a>
+- Roboto font <a href="https://fonts.google.com/?fbclid=IwAR0M5mybiiO6URy8GMzAKIYHRdX_lQHlJhwcmI6h-bNFuL90-osnCNZaC8Q">Google Fonts</a>
 - Orange color: #D27D2D generated from <a href="https://htmlcolorcodes.com/colors/cinnamon/">HTML Color Codes</a>
 - Other tones of orange, green and red identyfied using:<a href="https://webaim.org/resources/contrastchecker/">WebAIM Contrast Checker</a>
 - Blue color: #002366 <a href="https://www.color-meanings.com/colors-that-go-with-orange/">Color Meanings</a>
