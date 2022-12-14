@@ -611,10 +611,26 @@ To clone the GitHub repository you should:
 ## Credits 
 
 ### Media
-
-
+- <a href="assets/images/background.jpg">background</a> image "Food typography flat icon set" by <a href="https://www.freepik.com/free-vector/food-typography-flat-icon-set_8609151.htm#page=2&query=food&position=2&from_view=search&track=sph">pch.vector</a>
+- <a href="assets/images/favicon_io">favicon</a> generated from <a href="https://favicon.io/favicon-generator/">Favicon.io</a>
+- All icons were found on <a href="https://fontawesome.com/icons">Font Awesome</a> 
+- Orange color: #D27D2D generated from <a href="https://htmlcolorcodes.com/colors/cinnamon/">HTML Color Codes</a>
+- Other tones of orange identyfied using:<a href="https://webaim.org/resources/contrastchecker/">WebAIM Contrast Checker</a>
 
 ### Code
+- HTML and CSS was created based on knowledge from my previous project <a href="https://github.com/WojtekKamilowski/CI_PP1_CDVMR">CI_PP1_CDVMR</a> and Code Institute's walkthrough project <a href="https://github.com/Code-Institute-Solutions/love-maths-2.0-sourcecode">Love Maths</a>
+- JavaScript was inspired by projects of <a href="https://github.com/aleksandracodes/CI_PP2_SunshineGuessing">Aleksandra Haniok</a> & <a href="https://github.com/4n4ru/CI-P2-GuessingBee">Ana Runje</a>
+- Background image CSS code from <a href="https://css-tricks.com/snippets/css/transparent-background-images/">CSS-TRICKS</a>
+- Sticky footer from <a href="https://css-tricks.com/couple-takes-sticky-footer/">CSS-TRICKS</a>
+- contact-form.js based on <a href="https://github.com/aleksandracodes/CI_PP2_SunshineGuessing/blob/main/assets/js/contact-form.js">Aleksandra Haniok</a>
+- "a" element with "h1" element inside width: <a href="https://stackoverflow.com/questions/5990223/how-to-set-alink-height-width-with-css">stackoverflow</a>
+- random dish from an array based on <a href="https://www.youtube.com/watch?v=YNPhn5WkSbM">Autocode</a>
+- cursor from <a href="https://www.tutorialrepublic.com/faq/how-to-change-the-cursor-into-a-hand-pointer-on-hover-using-css.php#:~:text=You%20can%20simply%20use%20the,the%20default%20text%20selection%20cursor">TutorialRepublic</a>
+- quiz based on <a href="https://www.youtube.com/watch?v=riDzcEQbX6k">Web Dev Simplified</a>
+- placeholder color from <a href="https://www.w3schools.com/howto/howto_css_placeholder.asp">W3Schools</a>
+- reset form from <a href="https://stackoverflow.com/questions/14589193/clearing-my-form-inputs-after-submission">stackoverflow</a>
+- text-wrap from <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Text/Wrapping_Text">mdn web docs_</a>
+- emailjs from <a href="https://www.emailjs.com/docs/tutorial/creating-contact-form/">EmailJS</a>
 
 [Back to Table Of Contents](#table-of-contents)
 

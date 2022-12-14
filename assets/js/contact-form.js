@@ -1,4 +1,6 @@
-/**
+// based on https://github.com/aleksandracodes/CI_PP2_SunshineGuessing/blob/main/assets/js/contact-form.js
+
+/** 
  * Add an eventListener to listen for the submit.
  * Sends an email to site owner through emailJS if the submit is fired.
  * Script taken from the official EmailJS tutorial https://www.emailjs.com/docs/tutorial/creating-contact-form/ 

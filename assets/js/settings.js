@@ -1,4 +1,5 @@
 // dish lottery settings
+// random dish from an array based on https://www.youtube.com/watch?v=YNPhn5WkSbM
 
 /**
  * Draws a random dish for breakfast
